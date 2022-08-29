@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BDD" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAFBAACAAAAAAAAIgAABAAAREAAAAUAA=</HashCode>
+      <FileName>BDD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BDD_UnitTest" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAIAFAAA=</HashCode>
+      <FileName>BDD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCell" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABBAEgAAACAAAAAAAAAAQQA=</HashCode>
+      <FileName>Cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceGuard" Collapsed="true">
+    <Position X="16.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommonFuncs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCommonFuncs" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJIAEAAAAChAIAAAA0QAAwCEQBAAAEBAQBAAAgAAAYA=</HashCode>
+      <FileName>CommonFuncs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DnfMutant" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UNYSYox4pAAiECOAwAQWgQIcLEYCAGoAeCPFJQ8AgEU=</HashCode>
+      <FileName>DnfMutant.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDoubleLIRFHandler" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAggAAgAAAAAAAAAAAAAIAAAAABA=</HashCode>
+      <FileName>DoubleLIRFHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDoubleLORFHandler" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAQAAAAAAAAggAAgAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>DoubleLORFHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDoubleLRRFHandler" Collapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgIAAAAAAAAAAggAAgAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>DoubleLRRFHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DTDFCommonFuncs" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAgAAAAAAAAgAAEAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTDFCommonFuncs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DTLIFhandler" Collapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAgAAAAAAAggAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>DTLIFhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDTLIRFHandler" Collapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgAIAAAgAAAAAggAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTLIRFHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDLRFHandler" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAkAAAAAgAAAAAggAAgAAIAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>DTLRFHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDTTOFLRFHandler" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAggAEAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>DTTOFLRFHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FaultDetection">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEABAAAAAAAAgIAAAEAAAAAAACQAAAgAAAAgAAAA=</HashCode>
+      <FileName>FaultDetection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLPK_Solve" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAgAAAAAAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GLPK_Solve.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HierarchyNode">
+    <Position X="16.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SACAAAAgAAAAAGIAAAYAhQAACCAABCAAIAAiIEIAAAA=</HashCode>
+      <FileName>HierarchyNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLRFHandler" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAgAAAAAAAAAAAgAAAiAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LRFHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatrixPartition" Collapsed="true">
+    <Position X="18.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIgAAAAAAAAAAAAAACAAAAAAAAAAAEAACABAA=</HashCode>
+      <FileName>MatrixPartition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mutant" Collapsed="true">
+    <Position X="20.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAgAAAAIEBAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mutants.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mutants">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAAAACAAAAAAAAAAQAAQAAAEAIAAEAAAABAAAAEAA=</HashCode>
+      <FileName>Mutants.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point" Collapsed="true">
+    <Position X="15" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAQAAAAgCACAAIAAAAAAAAAACAAAQAAAAAAAAA=</HashCode>
+      <FileName>Point.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utility" Collapsed="true">
+    <Position X="18.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAFGgEEAAiCQAAkAAIAQACgAAIAgAAAAMIAgAAAAQY=</HashCode>
+      <FileName>Utility.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="info" Collapsed="true">
+    <Position X="18.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAQAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>DnfMutant.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002d_1" Collapsed="true">
+    <Position X="12.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAACAAAAAABAAAAAA=</HashCode>
+      <FileName>GLPK_Solve.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BiddyNode" Collapsed="true">
+    <Position X="16.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAABAAAAAAAAAAAAAAQABRAAAIAAAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0004_1" Collapsed="true">
+    <Position X="8.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAECAAAAAAAABAAIAgAAAAAEAIAAAAQQAAAAACQAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0004_2" Collapsed="true">
+    <Position X="4.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAUACAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0004_3" Collapsed="true">
+    <Position X="0.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BiddyCacheList" Collapsed="true">
+    <Position X="15" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0004_4" Collapsed="true">
+    <Position X="12.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAABAAAAAAYQAAAAAAAAQA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0004_5" Collapsed="true">
+    <Position X="12.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAIAAgAAAAAAAAAAACCAAAAAAAAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0004_6" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABQAAAAAAAAAAAAAQABAAAAAAAQA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0004_7" Collapsed="true">
+    <Position X="8.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAIAAgAAAAAAAAAAACCAAAAAAAAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tagPRE_PROCESS_DATA" Collapsed="true">
+    <Position X="4.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAAAAAAAAAAAAAAAAACAAAAAAABAIAgAAAAA=</HashCode>
+      <FileName>Expression.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002c_1" Collapsed="true">
+    <Position X="8.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAACAAQEAAABAAEJQAAQAAAAAIAAQAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002c_2" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQSAAASAAAQAAgQBAAAAEAAJAACAAAAAAABQAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002c_3" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002c_4" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAKAAwCAAACgAQgAAQBAAAEABIYAACAAAyCAAIAAAI=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002c_5" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAACAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002c_6" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAQAAAgAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_002c_7" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="glp_graph" Collapsed="true">
+    <Position X="22" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAACAAAAAAAAQFAAAAABgAAAABQAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="glp_vertex" Collapsed="true">
+    <Position X="15" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAAAAAAAAAAAAAAAAAAAEAACAIAAQAAAAEAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="glp_arc" Collapsed="true">
+    <Position X="20.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAgAAAAAAARAAAAAAAAAAAAACAAAAQAABAAgA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="hash_HierarchyNode" Collapsed="true">
+    <Position X="16.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HierarchyNode.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="equal_HierarchyNode" Collapsed="true">
+    <Position X="18.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HierarchyNode.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UnionFindSet" Collapsed="true">
+    <Position X="20.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACIAAAAAAYAAAAIAAAAAAAACQAAAAAAAAA=</HashCode>
+      <FileName>UnionFind.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="cb_param" Collapsed="true">
+    <Position X="12.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GLPK_Solve.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Biddy_Boolean" Collapsed="true">
+    <Position X="15" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddy.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Biddy_String" Collapsed="true">
+    <Position X="18.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddy.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Biddy_Variable" Collapsed="true">
+    <Position X="20.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddy.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Biddy_VoidFunction" Collapsed="true">
+    <Position X="22" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddy.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Biddy_Edge" Collapsed="true">
+    <Position X="16.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddy.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BiddyNodeTable" Collapsed="true">
+    <Position X="8.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BiddyVariable" Collapsed="true">
+    <Position X="4.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BiddyVariableTable" Collapsed="true">
+    <Position X="0.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BiddyIteCache" Collapsed="true">
+    <Position X="12.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BiddyIteCacheTable" Collapsed="true">
+    <Position X="12.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BiddyEAxCache" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BiddyEAxCacheTable" Collapsed="true">
+    <Position X="8.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>biddyInt.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PRE_PROCESS_DATA" Collapsed="true">
+    <Position X="4.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Expression.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="glp_prob" Collapsed="true">
+    <Position X="16.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="glp_bfcp" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="glp_smcp" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="glp_iptcp" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="glp_tree" Collapsed="true">
+    <Position X="20.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="glp_iocp" Collapsed="true">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="glp_attr" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="glp_mpscp" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="glp_cpxcp" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="glp_tran" Collapsed="true">
+    <Position X="18.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="glp_errfunc" Collapsed="true">
+    <Position X="15" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glpk.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

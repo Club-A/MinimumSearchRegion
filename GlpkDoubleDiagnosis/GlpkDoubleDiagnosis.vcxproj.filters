@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIFGenerateCellsForMutants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIORFGenerateCells.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LIORFGenerateCellsForMutants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LOFGenerateCellsForMutants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LRFGenerateCellsForMutants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TOFGenerateCellsForMutants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="public.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FaultDetection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BDD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="biddy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="biddyInt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFuncs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DnfMutant.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DORFDiagnosis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleLIRFHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleLORFHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleLRRFHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DTDFCommonFuncs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DTLIFhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DTLIRFHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DTLRFHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DTTOFLRFHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ENFDiagnosis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glpk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GLPK_Solve.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LRFHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixPartition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnionFind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchyNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calExpValue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="expTransform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoFaultDiagnosis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Literal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UTPorNFP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UTP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NFP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OTP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIFGenerateCellsForMutants.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIORFGenerateCells.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LIORFGenerateCellsForMutants.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LOFGenerateCellsForMutants.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LRFGenerateCellsForMutants.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TOFGenerateCellsForMutants.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="public.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FaultDetection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BDD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="biddyMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="biddyStat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFuncs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DnfMutant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DORFDiagnosis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleLIRFHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleLIRFHandler2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleLORFHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleLORFHandler2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleLRRFHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleLRRFHandler2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DTDFCommonFuncs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DTLIFhandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DTLIFhandler2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DTLIRFHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DTLIRFHandler2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DTLRFHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DTLRFHandler2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DTTOFLRFHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DTTOFLRFHandler2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ENFDiagnosis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GLPK_Solve.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LRFHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixPartition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutants.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HierarchyNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoFaultDiagnosis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="calExpValue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="expTransform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MutantsandTestcases2021.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Literal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UTPorNFP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UTP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NFP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OTP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glpk_4_52.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glpk_4_52.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MutantsandTestcases.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

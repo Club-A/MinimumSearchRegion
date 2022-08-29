@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D2BDFA4F-850C-44EB-8B14-2674EA5B7E09}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GlpkDoubleDiagnosis</RootNamespace>
+    <ProjectName>MutantsandTestcases</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <StackReserveSize>104857600</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BDD.h" />
+    <ClInclude Include="biddy.h" />
+    <ClInclude Include="biddyInt.h" />
+    <ClInclude Include="calExpValue.h" />
+    <ClInclude Include="Cell.h" />
+    <ClInclude Include="CommonFuncs.h" />
+    <ClInclude Include="DnfMutant.h" />
+    <ClInclude Include="DORFDiagnosis.h" />
+    <ClInclude Include="DoubleLIRFHandler.h" />
+    <ClInclude Include="DoubleLORFHandler.h" />
+    <ClInclude Include="DoubleLRRFHandler.h" />
+    <ClInclude Include="DTDFCommonFuncs.h" />
+    <ClInclude Include="DTLIFhandler.h" />
+    <ClInclude Include="DTLIRFHandler.h" />
+    <ClInclude Include="DTLRFHandler.h" />
+    <ClInclude Include="DTTOFLRFHandler.h" />
+    <ClInclude Include="ENFDiagnosis.h" />
+    <ClInclude Include="Expression.h" />
+    <ClInclude Include="expTransform.h" />
+    <ClInclude Include="FaultDetection.h" />
+    <ClInclude Include="glpk.h" />
+    <ClInclude Include="GLPK_Solve.h" />
+    <ClInclude Include="HierarchyNode.h" />
+    <ClInclude Include="LIFGenerateCellsForMutants.h" />
+    <ClInclude Include="LIORFGenerateCells.h" />
+    <ClInclude Include="LIORFGenerateCellsForMutants.h" />
+    <ClInclude Include="Literal.h" />
+    <ClInclude Include="LOFGenerateCellsForMutants.h" />
+    <ClInclude Include="LRFGenerateCellsForMutants.h" />
+    <ClInclude Include="LRFHandler.h" />
+    <ClInclude Include="MatrixPartition.h" />
+    <ClInclude Include="Mutants.h" />
+    <ClInclude Include="NFP.h" />
+    <ClInclude Include="OTP.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="public.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestCase.h" />
+    <ClInclude Include="TOFGenerateCellsForMutants.h" />
+    <ClInclude Include="TwoFaultDiagnosis.h" />
+    <ClInclude Include="UnionFind.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="UTP.h" />
+    <ClInclude Include="UTPorNFP.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BDD.cpp" />
+    <ClCompile Include="biddyMain.cpp" />
+    <ClCompile Include="biddyStat.cpp" />
+    <ClCompile Include="calExpValue.cpp" />
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="CommonFuncs.cpp" />
+    <ClCompile Include="DnfMutant.cpp" />
+    <ClCompile Include="DORFDiagnosis.cpp" />
+    <ClCompile Include="DoubleLIRFHandler.cpp" />
+    <ClCompile Include="DoubleLIRFHandler2.cpp" />
+    <ClCompile Include="DoubleLORFHandler.cpp" />
+    <ClCompile Include="DoubleLORFHandler2.cpp" />
+    <ClCompile Include="DoubleLRRFHandler.cpp" />
+    <ClCompile Include="DoubleLRRFHandler2.cpp" />
+    <ClCompile Include="DTDFCommonFuncs.cpp" />
+    <ClCompile Include="DTLIFhandler.cpp" />
+    <ClCompile Include="DTLIFhandler2.cpp" />
+    <ClCompile Include="DTLIRFHandler.cpp" />
+    <ClCompile Include="DTLIRFHandler2.cpp" />
+    <ClCompile Include="DTLRFHandler.cpp" />
+    <ClCompile Include="DTLRFHandler2.cpp" />
+    <ClCompile Include="DTTOFLRFHandler.cpp" />
+    <ClCompile Include="DTTOFLRFHandler2.cpp" />
+    <ClCompile Include="ENFDiagnosis.cpp" />
+    <ClCompile Include="Expression.cpp" />
+    <ClCompile Include="expTransform.cpp" />
+    <ClCompile Include="FaultDetection.cpp" />
+    <ClCompile Include="GLPK_Solve.cpp" />
+    <ClCompile Include="HierarchyNode.cpp" />
+    <ClCompile Include="LIFGenerateCellsForMutants.cpp" />
+    <ClCompile Include="LIORFGenerateCells.cpp" />
+    <ClCompile Include="LIORFGenerateCellsForMutants.cpp" />
+    <ClCompile Include="Literal.cpp" />
+    <ClCompile Include="LOFGenerateCellsForMutants.cpp" />
+    <ClCompile Include="LRFGenerateCellsForMutants.cpp" />
+    <ClCompile Include="LRFHandler.cpp" />
+    <ClCompile Include="MatrixPartition.cpp" />
+    <ClCompile Include="Mutants.cpp" />
+    <ClCompile Include="MutantsandTestcases2021.cpp" />
+    <ClCompile Include="NFP.cpp" />
+    <ClCompile Include="OTP.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="public.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TestCase.cpp" />
+    <ClCompile Include="TOFGenerateCellsForMutants.cpp" />
+    <ClCompile Include="TwoFaultDiagnosis.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="UTP.cpp" />
+    <ClCompile Include="UTPorNFP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glpk_4_52.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glpk_4_52.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MutantsandTestcases.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
