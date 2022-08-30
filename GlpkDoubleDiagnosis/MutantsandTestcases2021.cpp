@@ -1517,7 +1517,7 @@ void MutantsandValidInvalidTestCase(string type, string expression){
 
 }
 
-//nanjia：以下起是我的代码，主干模块、纯扩张模块、纯扩张子模块
+//以下起是我的代码，主干模块、纯扩张模块、纯扩张子模块
 
 int call_generateNearTestset_times = 0;
 time_t preprocess_interval = 0;
@@ -2902,7 +2902,7 @@ vector<string> judgeAllShrink(string exp, string fault_exp, vector<string> tests
 }
 
 //非词错误（项以上错误）次主干程序
-//TODO：gaofei
+
 vector<string> fault_in_Term(string exp, string fault_exp, vector<string> true_testset, vector<string> false_testset, vector<string> all_testset){
 	vector<string> res;
 	Utility uti;
@@ -2943,7 +2943,7 @@ vector<string> fault_in_Term(string exp, string fault_exp, vector<string> true_t
 	return res;
 }
 //词错误：LNF有效收缩检测
-//TODO：gaofei
+
 vector<string> fault_in_Literal_LNF_OLD(string exp, string fault_exp, TestCase testcase, UTP utp, unordered_map<char, int> literal_abstract_pos)
 {
 	vector<string> res;
@@ -3050,7 +3050,7 @@ vector<string> fault_in_Literal_LNF(string exp, string fault_exp, TestCase testc
 }
 
 //词错误：LRF有效收缩加测
-//TODO：nanjia
+
 vector<string> fault_in_Literal_LRF(string exp, string fault_exp, TestCase testcase, UTP utp, unordered_map<char, int> literal_abstract_pos, vector<Literal> insert_literal, vector<string> false_testset)
 {
 	//// cout << "非本项错误检测" << endl;
@@ -3351,7 +3351,7 @@ void ordinaryAlgo(string expression, vector<string>testset)
 
 //测试专用数据结构
 
-string filename = "test20";
+string filename = "test2";
 string filename_old = filename;
 string filename_new = filename + "\\byRule6";
 string filename_ordinary = filename + "\\byOrdinary";
@@ -3577,7 +3577,8 @@ double TestNewAlgo(string expression, vector<string> testset)
 	Mutants mutants1(expression);
 	DnfMutant dnf;
 	mutants1 = dnf.getMutants(expression, "SALL");
-	cout << "变体个数：" << mutants1.mutants.size() << endl;
+	cout << mutants1.mutants.size() << endl;
+	//return 0;
 	for (int i = 0; i < mutants1.mutants.size(); i++){
 		//if (mutants1.mutants[i].type == "TOF" || mutants1.mutants[i].type == "DORF"){
 			string fault_expression = mutants1.mutants[i].mutant;
@@ -3941,8 +3942,8 @@ double generateAllTestcase(string expression){
 	vector<char> testcase;
 	vector<string> testset;
 	int size = model.length();
-	cout <<"变量个数" <<size << endl;
-	//return 1;
+	//cout <<"变量个数" <<size << endl;
+	//return 0;
 	testset=generateTestcase(testcase,testset, 0,size);
 	double hit_rate = TestNewAlgo(expression, testset);
 	return hit_rate;
@@ -4046,7 +4047,7 @@ void Input_Exp_FromFile()
 			if (ti == 12 && filename == "test20")ti += 1;
 			expression = deleteTab(expression);
 			string algo_tag = "new";
-			/*filename = filename_new;
+			filename = filename_new;
 			if (algo_mode){
 				algo_tag = "old";
 				filename = filename_old;
@@ -4054,13 +4055,13 @@ void Input_Exp_FromFile()
 			//MutantsandValidInvalidTestCase("single", expression); //生成对应表达式的表格
 			//// cout << expression << endl;
 			exp_mutants_result = Exp_Mutants_Result();
-			exp_mutants_result.exp = expression;*/
-			double hit_rate=0;/*UseNearTestSingleFault("single", expression,"batch");
+			exp_mutants_result.exp = expression;
+			double hit_rate=UseNearTestSingleFault("single", expression,"batch");
 			oFile << to_string(ti) << "," << expression << "," << hit_rate << "," << exp_mutants_result.origin_testcase_size << "," << exp_mutants_result.add_testcase_size << "," << exp_mutants_result.all_testcase_size;
 			exp_mutants_result.generateResMessage();
 			exp_mutants_result.generateAvgTimeInterval();
 			//写入制表文件
-			write_for_draw.input_testcase_size(exp_mutants_result.origin_testcase_size, exp_mutants_result.add_testcase_size, exp_mutants_result.all_testcase_size);*/
+			write_for_draw.input_testcase_size(exp_mutants_result.origin_testcase_size, exp_mutants_result.add_testcase_size, exp_mutants_result.all_testcase_size);
 			auto iter1 = exp_mutants_result.max_add_testcase_size.begin();
 			auto iter2 = exp_mutants_result.min_add_testcase_size.begin();
 			auto iter3 = exp_mutants_result.max_res_size.begin();
@@ -4070,7 +4071,7 @@ void Input_Exp_FromFile()
 			int min = INT_MAX;
 			int max_res = 0;
 			int min_res = INT_MAX;
-			/*for (iter1, iter2; iter1 != exp_mutants_result.max_add_testcase_size.end() && iter2 != exp_mutants_result.min_add_testcase_size.end(); iter1++, iter2++)
+			for (iter1, iter2; iter1 != exp_mutants_result.max_add_testcase_size.end() && iter2 != exp_mutants_result.min_add_testcase_size.end(); iter1++, iter2++)
 			{
 				if (iter2->second > iter1->second) iter2->second = iter1->second;
 				oFile << "," << iter1->second << "," << iter2->second << "," << iter3->second << "," << iter4->second;
@@ -4126,7 +4127,7 @@ void Input_Exp_FromFile()
 			if (min_res == INT_MAX) min_res = max_res;
 			oFile << "," << max << "," << min << "," << max_res << "," << min_res << "," << exp_mutants_result.avg_generateNearTestset_times << "," << algo_tag << "," << exp_mutants_result.avg_res_size << "," << exp_mutants_result.avg_time_interval << endl;
 			old_avg_hit_rate += hit_rate;
-			algo_mode = !algo_mode;*/
+			algo_mode = !algo_mode;
 			//输出蛮力算法结果
 			algo_tag = "ordinary";
 			filename = filename_ordinary;
