@@ -4,9 +4,9 @@
 
 [1.TimeComplexity](https://github.com/Club-A/MinimumSearchRegion/blob/main/Output/TimeComplexity.csv)
 
-[2.EquivalentExpressionsResultSetByMSR]()
+[2.EquivalentExpressionsResultSetByMSR](https://github.com/Club-A/MinimumSearchRegion/blob/main/Output/EquivalentExpressionsResultSetByMSR.csv)
 
-[3.ComparisonOfDiagnosticAbilityBetween TminAndMSR]()
+[3.ComparisonOfDiagnosticAbilityBetweenTminAndMSR](https://github.com/Club-A/MinimumSearchRegion/blob/main/Output/ComparisonofDiagnosabilityBetweenTminAndMSR.xlsx)
 
 ## MinimumSearchRegion算法 ##
 
