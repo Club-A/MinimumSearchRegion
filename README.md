@@ -1,6 +1,6 @@
 # MinimumSearchRegion #
 
-![](https://github.com/Club-A/MinimumSearchRegion/FlowDiagram.jpg)
+![image](https://github.com/Club-A/MinimumSearchRegion/blob/main/FlowDiagram.jpg)
 
 ## MinimumSearchRegion算法 ##
 
