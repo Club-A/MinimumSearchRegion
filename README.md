@@ -6,7 +6,7 @@
 
 [2.EquivalentExpressionsResultSetByMSR](https://github.com/Club-A/MinimumSearchRegion/blob/main/Output/EquivalentExpressionsResultSetByMSR.csv)
 
-[3.ComparisonOfDiagnosticAbilityBetweenTminAndMSR](https://github.com/Club-A/MinimumSearchRegion/blob/main/Output/ComparisonofDiagnosabilityBetweenTminAndMSR.xlsx)
+[3.ComparisonOfDiagnosticAbilityBetweenTminAndMSR](https://github.com/Club-A/MinimumSearchRegion/blob/main/Output/ComparisonofDiagnosabilityBetweenTminAndMSR.csv)
 
 ## MinimumSearchRegion算法 ##
 
