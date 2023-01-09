@@ -1,0 +1,198 @@
+{
+  "categories": [
+    {
+      "name": "DORF⋈²LIF"
+    },
+    {
+      "name": "DORF⋈²LRF"
+    },
+    {
+      "name": "DORF⋈²LOF"
+    },
+    {
+      "name": "DORF⋈²TOF"
+    },
+    {
+      "name": "DORF⋈²LNF"
+    },
+    {
+      "name": "DORF⋈²CORF"
+    },
+    {
+      "name": "DORF⋈²DORF"
+    },
+    {
+      "name": "DORF⋈²TNF"
+    },
+    {
+      "name": "DORF⋈²ENF"
+    }
+  ],
+  "links": [
+    {
+      "source": "0",
+      "target": "1",
+      "label": {
+        "show": true,
+        "formatter": "收缩点",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "label": {
+        "show": true,
+        "formatter": "扩张点",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "lineStyle": {
+        "type": "dashed"
+      }
+
+    },{
+      "source": "2",
+      "target": "4",
+      "label": {
+        "show": true,
+        "formatter": "扩张点",
+        "fontSize": 18
+      }
+    },{
+      "source": "2",
+      "target": "5",
+      "label": {
+        "show": true,
+        "formatter": "扩张点",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "label": {
+        "show": true,
+        "formatter": "收缩点",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "3",
+      "target": "6"
+    },
+    {
+      "source": "4",
+      "target": "7",
+      "lineStyle": {
+        "type": "dashed"
+      }
+    },
+    {
+      "source": "5",
+      "target": "7",
+      "label": {
+        "show": true,
+        "formatter": "扩张点",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "6",
+      "target": "8",
+      "label": {
+        "show": true,
+        "formatter": "收缩点",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "7",
+      "target": "8",
+      "lineStyle": {
+        "type": "dashed"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0",
+      "name": "DORF⋈²LIF",
+      "symbolSize": 100,
+      "x": 100,
+      "y": 0,
+      "category": 0
+    },
+    {
+      "id": "1",
+      "name": "DORF⋈²LRF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 50,
+      "category": 1
+    },
+    {
+      "id": "2",
+      "name": "DORF⋈²LOF",
+      "symbolSize": 100,
+      "x": 400,
+      "y": 100,
+      "category": 2
+    },
+    {
+      "id": "3",
+      "name": "DORF⋈²TOF",
+      "symbolSize": 100,
+      "x": 100,
+      "y": 120,
+      "category": 3
+    },
+    {
+      "id": "4",
+      "name": "DORF⋈²LNF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 150,
+      "category": 4
+    },
+    {
+      "id": "5",
+      "name": "DORF⋈²CORF",
+      "symbolSize": 100,
+      "x": 400,
+      "y": 200,
+      "category": 5
+    },
+    {
+      "id": "6",
+      "name": "DORF⋈²DORF",
+      "symbolSize": 100,
+      "x": 100,
+      "y": 220,
+      "category": 6
+    },
+    {
+      "id": "7",
+      "name": "DORF⋈²TNF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 240,
+      "category": 7
+    },
+    {
+      "id": "8",
+      "name": "DORF⋈²ENF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 320,
+      "category": 8
+    }
+  ]
+}

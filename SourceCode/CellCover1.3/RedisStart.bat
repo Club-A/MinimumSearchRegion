@@ -1,0 +1,2 @@
+cd ./Redis
+winRedis.bat

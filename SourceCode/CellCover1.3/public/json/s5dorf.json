@@ -1,0 +1,206 @@
+{
+  "categories": [
+    {
+      "name": "DORF⋈¹LIF"
+    },
+    {
+      "name": "DORF⋈¹LRF"
+    },
+    {
+      "name": "DORF⋈¹LOF"
+    },
+    {
+      "name": "DORF⋈²TOF"
+    },
+    {
+      "name": "DORF⋈¹LNF"
+    },
+    {
+      "name": "DORF⋈¹CORF"
+    },
+    {
+      "name": "DORF⋈¹DORF"
+    },
+    {
+      "name": "DORF⋈¹TNF"
+    },
+    {
+      "name": "DORF⋈¹ENF"
+    }
+  ],
+  "links": [
+    {
+      "source": "0",
+      "target": "1",
+      "lineStyle": {
+        "type": "dashed"
+      },
+      "label": {
+        "show": true,
+        "formatter": "X",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "0",
+      "target": "6"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "label": {
+        "show": true,
+        "formatter": "E",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "label": {
+        "show": true,
+        "formatter": "E",
+        "fontSize": 18
+      }
+
+    },{
+      "source": "2",
+      "target": "4",
+      "label": {
+        "show": true,
+        "formatter": "E",
+        "fontSize": 18
+      }
+    },{
+      "source": "2",
+      "target": "5",
+      "label": {
+        "show": true,
+        "formatter": "E",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "lineStyle": {
+        "type": "dashed"
+      },
+      "label": {
+        "show": true,
+        "formatter": "X",
+        "fontSize": 18
+      }
+    },
+
+    {
+      "source": "4",
+      "target": "7",
+      "label": {
+        "show": true,
+        "formatter": "E",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "5",
+      "target": "7",
+      "label": {
+        "show": true,
+        "formatter": "E",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "6",
+      "target": "8",
+      "lineStyle": {
+        "type": "dashed"
+      },
+      "label": {
+
+        "show": true,
+        "formatter": "X",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "7",
+      "target": "8"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0",
+      "name": "DORF⋈¹LIF",
+      "symbolSize": 100,
+      "x": 100,
+      "y": 0,
+      "category": 0
+    },
+    {
+      "id": "1",
+      "name": "DORF⋈¹LRF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 50,
+      "category": 1
+    },
+    {
+      "id": "2",
+      "name": "DORF⋈¹LOF",
+      "symbolSize": 100,
+      "x": 400,
+      "y": 100,
+      "category": 2
+    },
+    {
+      "id": "3",
+      "name": "DORF⋈²TOF",
+      "symbolSize": 100,
+      "x": 130,
+      "y": 120,
+      "category": 3
+    },
+    {
+      "id": "4",
+      "name": "DORF⋈¹LNF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 150,
+      "category": 4
+    },
+    {
+      "id": "5",
+      "name": "DORF⋈¹CORF",
+      "symbolSize": 100,
+      "x": 400,
+      "y": 200,
+      "category": 5
+    },
+    {
+      "id": "6",
+      "name": "DORF⋈¹DORF",
+      "symbolSize": 100,
+      "x": 100,
+      "y": 220,
+      "category": 6
+    },
+    {
+      "id": "7",
+      "name": "DORF⋈¹TNF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 240,
+      "category": 7
+    },
+    {
+      "id": "8",
+      "name": "DORF⋈¹ENF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 320,
+      "category": 8
+    }
+  ]
+}

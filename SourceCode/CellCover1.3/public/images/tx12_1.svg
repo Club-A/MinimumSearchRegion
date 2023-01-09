@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Create with Visual Graph (http://www.visual-graph.com/) -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" style="background-color:##2c2c2f" id="main" viewBox="-100.000000 0.000000 950.000000 1100.000000" width="280.000000" height="400.000000">
+<script type="text/javascript" xlink:href="vg.js"/>
+<defs/>
+<line id="line3" x1="-97.2179" y1="13.8019" x2="-32.9179" y2="-13.8981" fill="#9900CC" stroke="#000000" transform="translate(31.917897,-94.701870) "/>
+<g id="element1" transform="translate(125.572025,82.004061) ">
+<ellipse id="circle4" cx="17.5385" cy="-59.1167" rx="100" ry="100" fill="#FFCCCC" fill-opacity="0.8" fill-rule="nonzero" stroke="#FFCCCC" stroke-opacity="1" transform="translate(-25.492975,59.112688) "/>
+<path id="line2" d="M-110.386742,-43.389915 A100.292364,100.292364,0,1,0,90.113258,-37.889915 " fill="#00FF00" fill-opacity="0.8" stroke="#00FF00" transform="translate(2.814717,39.385854) "/>
+<text id="text1" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(-78.942570,18.495939) ">
+T1(S)</text>
+<text id="text6" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(-79.942570,-46.004061) ">
+T1(E)</text>
+<ellipse id="circle1" cx="14.0204" cy="-37.1683" rx="50" ry="50" fill="#9966FF" fill-opacity="0.8" fill-rule="nonzero" stroke="#9966FF" stroke-opacity="1" transform="translate(43.793963,25.864245) "/>
+<path id="line8" d="M-104.972852,93.434808 A50.222592,50.222592,0,0,0,-25.572852,31.934808 " fill="#FFFF00" fill-opacity="0.8" stroke="#FFFF00" transform="translate(123.500827,-72.938869) "/>
+<text id="text3" x="0.070545" y="12" font-family="Arial" font-size="20" text-anchor="start" transform="translate(46.157430,7.095939) ">
+T2(S)</text>
+<text id="text2" x="-2.08887" y="12" font-family="Arial" font-size="20" text-anchor="start" transform="translate(28.857430,-38.904061) ">
+T2(E)</text>
+</g>
+<g id="element2" transform="translate(537.000000,32.576345) ">
+<path id="line1" d="M-107.333572,119.246247 A128.767494,128.767494,0,1,1,93.666428,-41.753753 " fill="#0099FF" fill-opacity="0.8" stroke="#0099FF" transform="translate(69.833572,-51.322592) "/>
+<text id="text4" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(44.588867,-80.076345) ">
+T3(E)</text>
+<path id="line5-1" d="M-30.219565,5.390886 A76.854221,76.854221,0,0,1,-4.719565,25.390886 " fill="none" stroke="#FF0000" stroke-width="5" stroke-dasharray="18,6" transform="translate(53.719565,-23.467231) ">
+<animate xlink:href="#line5-1" attributeName="stroke" attributeType="XML" from="#FFFFFF" to="#FF0000" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+								<animate xlink:href="#line5-1" attributeName="stroke-opacity" attributeType="XML" from="0" to="1" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+							</path>
+<g id="element2" transform="translate(-55.545486,41.927716) ">
+<ellipse id="circle4" cx="17.5385" cy="-59.1167" rx="100" ry="100" fill="#FFCCCC" fill-opacity="0.8" fill-rule="nonzero" stroke="#FFCCCC" stroke-opacity="1" transform="translate(-25.492975,59.112688) "/>
+<path id="line2" d="M-110.386742,-43.389915 A100.292364,100.292364,0,1,0,90.113258,-37.889915 " fill="#00FF00" fill-opacity="0.8" stroke="#00FF00" transform="translate(2.814717,39.385854) "/>
+<text id="text1" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(-78.942570,18.495939) ">
+T1(S)</text>
+<text id="text6" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(-79.942570,-46.004061) ">
+T1(E)</text>
+<ellipse id="circle1" cx="14.0204" cy="-37.1683" rx="50" ry="50" fill="#9966FF" fill-opacity="0.8" fill-rule="nonzero" stroke="#9966FF" stroke-opacity="1" transform="translate(43.793963,25.864245) "/>
+<path id="line8" d="M-104.972852,93.434808 A50.222592,50.222592,0,0,0,-25.572852,31.934808 " fill="#FFFF00" fill-opacity="0.8" stroke="#FFFF00" transform="translate(123.500827,-72.938869) "/>
+<text id="text3" x="0.070545" y="12" font-family="Arial" font-size="20" text-anchor="start" transform="translate(46.157430,7.095939) ">
+T2(S)</text>
+<text id="text2" x="-2.08887" y="12" font-family="Arial" font-size="20" text-anchor="start" transform="translate(28.857430,-38.904061) ">
+T2(E)</text>
+</g>
+<path id="line6-1" d="M-103.750000,52.032451 A99.557321,99.557320,0,0,1,78.750000,-0.467549 " fill="none" stroke="#FF0000" stroke-width="5" stroke-dasharray="18,6" transform="translate(-55.750000,-15.608796) ">
+<animate xlink:href="#line6-1" attributeName="stroke" attributeType="XML" from="#FFFFFF" to="#FF0000" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+								<animate xlink:href="#line6-1" attributeName="stroke-opacity" attributeType="XML" from="0" to="1" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+							</path>
+<line id="line7-2" x1="61" y1="11.75" x2="-91.5" y2="7.75" fill="none" stroke="#FF0000" stroke-width="5" stroke-dasharray="18,6" transform="translate(-69.000000,28.673655) ">
+<animate xlink:href="#line7-2" attributeName="stroke" attributeType="XML" from="#FFFFFF" to="#FF0000" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+								<animate xlink:href="#line7-2" attributeName="stroke-opacity" attributeType="XML" from="0" to="1" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+							</line>
+<line id="line6-3" x1="16.7" y1="-12" x2="-39.8" y2="29.5" fill="none" stroke="#FF0000" stroke-width="5" stroke-dasharray="18,6" transform="translate(31.800000,10.923655) ">
+<animate xlink:href="#line6-3" attributeName="stroke" attributeType="XML" from="#FFFFFF" to="#FF0000" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+								<animate xlink:href="#line6-3" attributeName="stroke-opacity" attributeType="XML" from="0" to="1" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+							</line>
+</g>
+</svg>

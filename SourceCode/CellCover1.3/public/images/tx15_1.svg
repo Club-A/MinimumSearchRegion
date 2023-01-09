@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Create with Visual Graph (http://www.visual-graph.com/) -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" style="background-color:##2c2c2f" id="main" viewBox="-100.000000 0.000000 950.000000 1100.000000" width="280.000000" height="380.000000">
+<script type="text/javascript" xlink:href="vg.js"/>
+<defs/>
+<line id="line3" x1="-97.2179" y1="13.8019" x2="-32.9179" y2="-13.8981" fill="#9900CC" stroke="#000000" transform="translate(31.917897,-94.701870) "/>
+<g id="element1" transform="translate(142.484434,75.000000) ">
+<ellipse id="circle4" cx="9.53846" cy="-67.1167" rx="92" ry="92" fill="#00FF00" fill-opacity="0.8" fill-rule="nonzero" stroke="#00ff00" stroke-opacity="1" transform="translate(-36.522895,67.116749) "/>
+<text id="text5" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(-67.972490,-13.000000) ">
+T1(E)</text>
+<ellipse id="circle5" cx="-5.31865" cy="-84.0213" rx="50" ry="50" fill="#FFFF00" fill-opacity="0.8" fill-rule="nonzero" stroke="#FFFF00" stroke-opacity="0.8" transform="translate(74.303083,46.521270) "/>
+<text id="text6" x="-0.088867" y="20.5" font-family="Arial" font-size="28" text-anchor="start" transform="translate(40.027510,-49.000000) ">
+T2(E)</text>
+</g>
+<g id="element2" transform="translate(487.606166,92.500000) ">
+<ellipse id="circle2" cx="51.0462" cy="-40.9401" rx="150" ry="150" fill="#333399" fill-opacity="0.8" fill-rule="nonzero" stroke="#333399" stroke-opacity="1" transform="translate(-0.034808,40.940099) "/>
+<text id="text3" x="-0.088867" y="16.5" font-family="Arial" font-size="28" text-anchor="start" transform="translate(87.982701,-56.500000) ">
+T3(E)</text>
+<path id="line2" d="M-150.576498,-61.190290 A150.206092,150.206092,0,1,0,149.823502,-58.590290 " fill="#3399CC" fill-opacity="0.7" stroke="#3399CC" stroke-opacity="0.7" transform="translate(50.470332,58.990290) "/>
+<text id="text1" x="-0.088867" y="16.5" font-family="Arial" font-size="28" text-anchor="start" transform="translate(78.982701,48.500000) ">
+T3(S)</text>
+<g id="element2" transform="translate(-79.121732,-18.000000) ">
+<ellipse id="circle4" cx="9.53846" cy="-67.1167" rx="92" ry="92" fill="#00FF00" fill-opacity="0.8" fill-rule="nonzero" stroke="#00ff00" stroke-opacity="1" transform="translate(-36.522895,67.116749) "/>
+<text id="text5" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(-67.972490,-13.000000) ">
+T1(E)</text>
+<ellipse id="circle5" cx="-5.31865" cy="-84.0213" rx="50" ry="50" fill="#FFFF00" fill-opacity="0.8" fill-rule="nonzero" stroke="#FFFF00" stroke-opacity="0.8" transform="translate(74.303083,46.521270) "/>
+<text id="text6" x="-0.088867" y="20.5" font-family="Arial" font-size="28" text-anchor="start" transform="translate(40.027510,-49.000000) ">
+T2(E)</text>
+</g>
+<path id="line6-1" d="M-2.274964,89.646293 A93.032763,93.032762,0,1,1,33.725036,-70.353707 M-19.218788,13.646293 A144.438393,152.936405,0,0,0,-0.857228,92.641642 M-16.832229,13.488153 L64.925036,14.306758 M35.725036,-75.353707 A50.547761,50.547760,0,1,1,67.725036,12.646293 " fill="none" stroke="#FF0000" stroke-width="6" stroke-dasharray="18,6" transform="translate(-80.831202,-16.646293) ">
+<animate xlink:href="#line6-1" attributeName="stroke" attributeType="XML" from="#FFFFFF" to="#FF0000" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+								<animate xlink:href="#line6-1" attributeName="stroke-opacity" attributeType="XML" from="0" to="1" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+							</path>
+</g>
+</svg>

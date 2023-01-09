@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Create with Visual Graph (http://www.visual-graph.com/) -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" style="background-color:#FFFFFF" id="main" viewBox="0.000000 0.000000 1000.000000 800.000000" width="600.000000" height="600.000000">
+<script type="text/javascript" xlink:href="vg.js"/>
+<defs/>
+<line id="line3" x1="-97.2179" y1="13.8019" x2="-32.9179" y2="-13.8981" fill="#9900CC" stroke="#000000" transform="translate(31.917897,-94.701870) "/>
+<text id="text6" x="-2.08887" y="10" font-family="Arial" font-size="18" text-anchor="start" transform="translate(-164.911133,153.000000) ">
+</text>
+<text id="text9" x="-2.08887" y="5" font-family="Arial" font-size="16" text-anchor="start" font-weight="bold" transform="translate(-164.911133,155.000000) ">
+</text>
+<g id="element3" transform="translate(176.500000,82.250000) ">
+<ellipse id="circle2" cx="26" cy="-32.5" rx="92" ry="92" fill="#FFFF00" fill-opacity="0.8" stroke="#FFFF00" stroke-opacity="1" transform="translate(-57.000000,25.750000) "/>
+<ellipse id="circle4" cx="-7" cy="-67.5" rx="60" ry="60" fill="#00FF00" fill-opacity="0.8" fill-rule="evenodd" stroke="#00FF00" stroke-opacity="1" transform="translate(70.000000,1.750000) "/>
+<text id="text1" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(37.588867,-76.250000) ">
+T2(S)</text>
+<text id="text8" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(-61.411133,-13.250000) ">
+T1(S)</text>
+<ellipse id="circle1" cx="-17" cy="-77.5" rx="50" ry="50" fill="#7D54D1" fill-opacity="0.8" fill-rule="evenodd" stroke="#9776DA" stroke-opacity="1" transform="translate(57.500000,153.250000) "/>
+<text id="text2" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(11.588867,71.750000) ">
+T2(E)</text>
+</g>
+<g id="element2" transform="translate(599.500000,200.500000) ">
+<ellipse id="circle8" cx="-6" cy="2.5" rx="92" ry="92" fill="#FF0066" fill-opacity="0.8" stroke="#FF0099" transform="translate(6.000000,-2.500000) "/>
+<text id="text4" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(-20.411133,34.500000) ">
+T3(E)</text>
+</g>
+<g id="element4" transform="translate(538.500000,89.250000) ">
+<ellipse id="circle2" cx="26" cy="-32.5" rx="92" ry="92" fill="#FFFF00" fill-opacity="0.8" stroke="#FFFF00" stroke-opacity="1" transform="translate(-57.000000,25.750000) "/>
+<ellipse id="circle4" cx="-7" cy="-67.5" rx="60" ry="60" fill="#00FF00" fill-opacity="0.8" fill-rule="evenodd" stroke="#00FF00" stroke-opacity="1" transform="translate(70.000000,1.750000) "/>
+<text id="text1" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(37.588867,-76.250000) ">
+T2(S)</text>
+<text id="text8" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(-61.411133,-13.250000) ">
+T1(S)</text>
+<ellipse id="circle1" cx="-17" cy="-77.5" rx="50" ry="50" fill="#7D54D1" fill-opacity="0.8" fill-rule="evenodd" stroke="#9776DA" stroke-opacity="1" transform="translate(57.500000,153.250000) "/>
+<text id="text2" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(11.588867,71.750000) ">
+T2(E)</text>
+</g>
+<path id="line4-1" d="M15.538394,-51.075735 A93.263823,93.263823,0,0,1,-51.317281,6.880869 M16.538394,-50.075735 A49.556667,49.556666,0,1,1,-49.749017,7.880869 " fill="none" stroke="#FF0000" stroke-width="5" stroke-dasharray="18,6" transform="translate(579.961606,169.575735) ">
+<animate xlink:href="#line4-1" attributeName="stroke" attributeType="XML" from="#FFFFFF" to="#FF0000" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+								<animate xlink:href="#line4-1" attributeName="stroke-opacity" attributeType="XML" from="0" to="1" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+							</path>
+</svg>

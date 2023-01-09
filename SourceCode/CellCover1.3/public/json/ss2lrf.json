@@ -1,0 +1,197 @@
+{
+  "categories": [
+    {
+      "name": "LRF⋈²LIF"
+    },
+    {
+      "name": "LRF⋈²LRF"
+    },
+    {
+      "name": "LRF⋈²LOF"
+    },
+    {
+      "name": "LRF⋈²TOF"
+    },
+    {
+      "name": "LRF⋈²LNF"
+    },
+    {
+      "name": "LRF⋈²CORF"
+    },
+    {
+      "name": "LRF⋈²DORF"
+    },
+    {
+      "name": "LRF⋈²TNF"
+    },
+    {
+      "name": "LRF⋈²ENF"
+    }
+  ],
+  "links": [
+    {
+      "source": "0",
+      "target": "1",
+      "lineStyle": {
+        "type": "dashed"
+      }
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "lineStyle": {
+        "type": "dashed"
+      }
+    },{
+      "source": "1",
+      "target": "2",
+      "label": {
+        "show": true,
+        "formatter": "扩张点",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "lineStyle": {
+        "type": "dashed"
+      }
+    },{
+      "source": "2",
+      "target": "4",
+      "label": {
+        "show": true,
+        "formatter": "扩张点",
+        "fontSize": 18
+      }
+    },{
+      "source": "2",
+      "target": "5",
+      "label": {
+        "show": true,
+        "formatter": "扩张点",
+        "fontSize": 18
+      }
+    },{
+      "source": "3",
+      "target": "4",
+      "lineStyle": {
+        "type": "dashed"
+      }
+    },{
+      "source": "3",
+      "target": "6",
+      "lineStyle": {
+        "type": "dashed"
+      }
+    },
+    {
+      "source": "4",
+      "target": "7",
+      "lineStyle": {
+        "type": "dashed"
+      }
+    },
+    {
+      "source": "5",
+      "target": "7",
+      "label": {
+        "show": true,
+        "formatter": "扩张点",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "6",
+      "target": "8",
+      "lineStyle": {
+        "type": "dashed"
+      }
+    },
+    {
+      "source": "7",
+      "target": "8",
+      "lineStyle": {
+        "type": "dashed"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0",
+      "name": "LRF⋈²LIF",
+      "symbolSize": 100,
+      "x": 100,
+      "y": 0,
+      "category": 0
+    },
+    {
+      "id": "1",
+      "name": "LRF⋈²LRF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 50,
+      "category": 1
+    },
+    {
+      "id": "2",
+      "name": "LRF⋈²LOF",
+      "symbolSize": 100,
+      "x": 400,
+      "y": 100,
+      "category": 2
+    },
+    {
+      "id": "3",
+      "name": "LRF⋈²TOF",
+      "symbolSize": 100,
+      "x": 100,
+      "y": 120,
+      "category": 3,
+      "itemStyle": {
+        "borderWidth": 0
+      }
+    },
+    {
+      "id": "4",
+      "name": "LRF⋈²LNF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 150,
+      "category": 4
+    },
+    {
+      "id": "5",
+      "name": "LRF⋈²CORF",
+      "symbolSize": 100,
+      "x": 400,
+      "y": 200,
+      "category": 5
+    },
+    {
+      "id": "6",
+      "name": "LRF⋈²DORF",
+      "symbolSize": 100,
+      "x": 100,
+      "y": 220,
+      "category": 6
+    },
+    {
+      "id": "7",
+      "name": "LRF⋈²TNF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 240,
+      "category": 7
+    },
+    {
+      "id": "8",
+      "name": "LRF⋈²ENF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 320,
+      "category": 8
+    }
+  ]
+}

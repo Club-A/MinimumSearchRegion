@@ -1,0 +1,228 @@
+<?xml version="1.0"
+        encoding="utf-8"?>
+<!-- Create with Visual Graph (http://www.visual-graph.com/) -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     style="background-color:transparent"
+     id="main"
+     viewBox="50.000000 -300.000000 800.000000 800.000000"
+     width="600.000000"
+     height="600.000000">
+    <script type="text/javascript"
+            xlink:href="vg.js"/>
+    <!--    <defs/>-->
+    <!--    <line id="line3"
+    x1="-97.2179"
+    y1="13.8019"
+    x2="-32.9179"
+    y2="-13.8981"
+    fill="#9900CC"
+    stroke="#000000"-->
+    <!--          transform="translate(31.917897,-94.701870) "/>-->
+    <text x="250"
+          y="280"
+          font-size="40"
+          fill="#FFFFFF">⑯ E/SE-E/SE/S
+    </text>
+    <g id="element2"
+       transform="translate(204.708008,90.500028) ">
+        <!--左T1E-->
+        <ellipse id="circle1"
+                 cx="9.53846"
+                 cy="-67.1167"
+                 rx="92"
+                 ry="92"
+                 fill="#79BD8F"
+                 fill-opacity="0.8"
+                 fill-rule="nonzero"
+                 stroke="#DCDCDC"
+                 stroke-width="2"
+                 stroke-opacity="1"
+                 transform="translate(-30.628958,67.116721) "/>
+        <!--左T1S-->
+        <path id="line9"
+              d="M-109.886742,-47.389915 A92.106648,92.106648,0,0,0,74.313258,-47.389915 "
+              fill="#F5B641"
+              fill-opacity="0.8"
+              stroke="#DCDCDC"
+              stroke-width="2"
+              stroke-opacity="1"
+              transform="translate(-3.321266,48.389887) "/>
+        <text id="text5"
+              x="-0.088867"
+              y="19"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(-64.078553,33.999972) ">
+            T1(S)
+        </text>
+        <text id="text9"
+              x="-0.129455"
+              y="20"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(-64.078553,-37.000028) ">
+            T1(E)
+        </text>
+        <!--左T2E-->
+        <ellipse id="circle2"
+                 cx="3.99164"
+                 cy="-47.1683"
+                 rx="39.9712"
+                 ry="40"
+                 fill="#7AD4F5"
+                 fill-opacity="0.8"
+                 fill-rule="nonzero"
+                 stroke="#DCDCDC"
+                 stroke-width="2"
+                 stroke-opacity="1"
+                 transform="translate(64.857980,42.668278) "/>
+        <text id="text1"
+              x="-0.129455"
+              y="20"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(36.921447,-11.500028) ">
+            T2(E)
+        </text>
+    </g>
+    <g id="element4"
+       transform="translate(669.052895,94.422270) ">
+        <!--右T3E-->
+        <ellipse id="circle3"
+                 cx="0"
+                 cy="1"
+                 rx="141"
+                 ry="141"
+                 fill="#FFFFFF"
+                 fill-opacity="0.6"
+                 stroke="#DCDCDC"
+                 stroke-width="2"
+                 stroke-opacity="1"
+                 transform="translate(0.447105,-1.922270) "/>
+        <!--右T3S-->
+        <path id="line1"
+              d="M-65.227466,-129.670012 A141.310790,141.310790,0,0,0,162.572534,37.529988 "
+              fill="#FF6633"
+              fill-opacity="0.4"
+              stroke="#DCDCDC"
+              stroke-width="2"
+              stroke-opacity="1"
+              transform="translate(-50.325429,48.747742) "/>
+        <text id="text3"
+              x="-0.129455"
+              y="20"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(-14.423440,73.077730) ">
+            T3(S)
+        </text>
+        <text id="text2"
+              x="-0.129455"
+              y="20"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(44.576560,-23.922270) ">
+            T3(E)
+        </text>
+    </g>
+    <g id="element1"
+       transform="translate(600.708008,32.500028) ">
+        <!--右T1S-->
+        <ellipse id="circle1"
+                 cx="9.53846"
+                 cy="-67.1167"
+                 rx="92"
+                 ry="92"
+                 fill="#79BD8F"
+                 fill-opacity="0.8"
+                 fill-rule="nonzero"
+                 stroke="#DCDCDC"
+                 stroke-width="2"
+                 stroke-opacity="1"
+                 transform="translate(-30.628958,67.116721) "/>
+        <!--右T1S-->
+        <path id="line9"
+              d="M-109.886742,-47.389915 A92.106648,92.106648,0,0,0,74.313258,-47.389915 "
+              fill="#F5B641"
+              fill-opacity="0.8"
+              stroke="#DCDCDC"
+              stroke-width="2"
+              stroke-opacity="1"
+              transform="translate(-3.321266,48.389887) "/>
+        <text id="text5"
+              x="-0.088867"
+              y="19"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(-64.078553,33.999972) ">
+            T1(S)
+        </text>
+        <text id="text9"
+              x="-0.129455"
+              y="20"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(-64.078553,-37.000028) ">
+            T1(E)
+        </text>
+        <!--右T2E-->
+        <ellipse id="circle2"
+                 cx="3.99164"
+                 cy="-47.1683"
+                 rx="39.9712"
+                 ry="40"
+                 fill="#7AD4F5"
+                 fill-opacity="0.8"
+                 fill-rule="nonzero"
+                 stroke="#DCDCDC"
+                 stroke-width="2"
+                 stroke-opacity="1"
+                 transform="translate(64.857980,42.668278) "/>
+        <text id="text1"
+              x="-0.129455"
+              y="20"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(36.921447,-11.500028) ">
+            T2(E)
+        </text>
+    </g>
+
+    <!--镶边-->
+    <path id="line6-1"
+          d="M-112.909189,37.791300 A93.607901,93.607901,0,0,1,59.090811,-16.208700 M-105.909189,38.791300 L-47.909189,38.791300 M-48.409189,35.791300 A40.685794,40.685795,0,0,1,-33.409189,8.291300 M-33.909189,8.791300 L-3.909189,38.791300 M67.090811,-7.208700 A40.783314,40.783314,0,1,1,69.090811,73.791300 M0.090811,39.791300 L76.090811,40.791300 M78.090811,37.791300 A4108.345212,4108.345212,0,0,1,70.090811,75.791300 "
+          fill="none"
+          stroke="#FF0000"
+          stroke-width="6"
+          stroke-dasharray="18,6"
+          transform="translate(598.409189,-5.291300) ">
+        <animate xlink:href="#line6-1"
+                 attributeName="stroke"
+                 attributeType="XML"
+                 from="#FFFFFF"
+                 to="#FF0000"
+                 begin="0"
+                 dur="2s"
+                 fill="freeze"
+                 repeatCount="indefinite"></animate>
+        <animate xlink:href="#line6-1"
+                 attributeName="stroke-opacity"
+                 attributeType="XML"
+                 from="0"
+                 to="1"
+                 begin="0"
+                 dur="2s"
+                 fill="freeze"
+                 repeatCount="indefinite"></animate>
+    </path>
+</svg>

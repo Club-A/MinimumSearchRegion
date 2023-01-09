@@ -1,0 +1,469 @@
+
+body, center, cite, code, dd, del, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hr, html, img, input, label, legend, li, mark, ol, p, section, span, strong, textarea, time, ul, var input {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-style: normal;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Safari */
+}
+
+body {
+    height: 100%;
+}
+
+
+.headline {
+    background-color: #144f78;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 11px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.first-headline {
+    background-color: #144f78;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.headline-test-case {
+    background-color: #144f78;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 11px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.first-headline-test-case {
+    background-color: #144f78;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 11px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.output {
+    background-color: #222;
+    width: 100%;
+    padding: 5px;
+    margin: 15px auto;
+    font-size: 14px;
+    color: #fff;
+    min-height: 180px !important;
+    word-wrap: break-word;
+    white-space: normal;
+    max-height: 180px !important;
+    overflow-y: auto !important;
+    border-radius: 4px !important;
+    border: none !important;
+}
+
+/*滚动条整体样式*/
+.output::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/*滚动条滑块*/
+.output::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #144f78;
+}
+
+/*滚动条轨道*/
+.output::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    background: #ccc;
+}
+
+.set-output-height {
+    min-height: 270px !important;
+    max-height: 270px !important;
+}
+
+.set-output-testcase-height {
+    min-height: 314px !important;
+    max-height: 314px !important;
+    overflow-x: auto !important;
+}
+
+.set-output-model-control-height {
+    min-height: 150px !important;
+    max-height: 150px !important;
+}
+
+.btn2 {
+    background-color: #0c3b5c;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 2px 10px 2px 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn2:active {
+    background-color: #082f44;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    background-color: #082f44;
+}
+
+.btn3 {
+    background-color: #144f78;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 11px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    border: none;
+}
+
+.btn3:active {
+    background-color: #082f44;
+}
+
+.btn3:hover {
+    cursor: pointer;
+    background-color: #082f44;
+}
+
+.btn-tool-vertical {
+    width: 60px !important;
+}
+
+.btn-tool-horizontal {
+    height: 45px;
+}
+
+.btn-tool-btn {
+    width: 60px !important;
+    height: 40px !important;
+    background-color: #222;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.btn-tool-height-test-case {
+    background-color: #222;
+    height: 698px
+}
+
+.btn-tool-height {
+    background-color: #222;
+    height: 500px
+}
+
+.btn-tool-btn:active {
+    background-color: #082f44;
+}
+
+.btn-tool-btn:hover {
+    cursor: pointer;
+    background-color: #082f44;
+}
+
+.btn-tool-btn-click {
+    background-color: #082f44 !important;
+}
+
+.empty-btn-vertical {
+    background-color: #222;
+    border: none;
+    outline: none;
+    height: 50px;
+}
+
+.empty-btn-horizontal {
+    background-color: #222;
+    border: none;
+    outline: none;
+    width: 130px;
+}
+
+
+.subContent {
+    margin: 10px 0;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+#sceneView1 {
+    background-color: #222;
+    width: 100%;
+    margin: 15px auto;
+    color: #fff;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-y: auto;
+}
+
+#animateHistory {
+    background-color: #222;
+    width: 100%;
+    margin: 15px auto;
+    color: #fff;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-y: auto;
+}
+
+.parent-li {
+    font-size: 15px;
+    color: #969696;
+    padding: 3px 0px 3px 5px;
+}
+
+.parent-li > span:before {
+    content: '■';
+    margin-right: 5px;
+}
+
+.parent-li:hover {
+    background-color: rgba(21, 60, 94, 0.5);
+}
+
+.parent-li-testcase {
+    font-size: 15px;
+    color: #969696;
+    padding: 3px 0px 3px 5px;
+}
+
+.parent-li-testcase > span:before {
+    content: '■';
+    margin-right: 5px;
+}
+
+.parent-li-testcase:hover {
+    background-color: rgba(21, 60, 94, 0.5);
+}
+
+.parent-li-testcase-click {
+    background-color: #082f44 !important;
+}
+
+.kanomap {
+    width: 100%;
+    height: 500px;
+    background-color: #060606;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.kanomap-test-case {
+    width: 100%;
+    height: 698px;
+    background-color: #060606;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    .kanomap-test-case {
+        height: 652px;
+    }
+}
+
+
+.kanomap-canvas {
+    background-color: #060606;
+    /*width: 100%;*/
+}
+
+/*滚动条整体样式*/
+.kanomap::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/*滚动条滑块*/
+.kanomap::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #144f78;
+}
+
+/*滚动条轨道*/
+.kanomap::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    background: #ccc;
+}
+
+/*滚动条整体样式*/
+.kanomap-test-case::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/*滚动条滑块*/
+.kanomap-test-case::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #144f78;
+}
+
+/*滚动条轨道*/
+.kanomap-test-case::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    background: #ccc;
+}
+
+/*canvas {*/
+/*    width: 100%;*/
+/*    height: 100%*/
+/*}*/
+
+
+.clear-margin-left-right {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.clear-margin-top {
+    margin-top: 0px !important;
+}
+
+.clear-margin-top-bottom {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.clear-margin-right {
+    margin-right: 0px !important;
+}
+
+.text-input-lint {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.add-btn-margin-left {
+    margin-left: 70px !important;
+}
+
+.clear-padding {
+    padding: 0px;
+}
+
+.clear-padding-left-right {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.set-color-white {
+    color: #fff !important;
+}
+
+.checkbox-label {
+    margin-left: 10px;
+}
+
+.checkbox-label span {
+    margin-left: 10px;
+}
+
+.checkbox-input {
+    margin-top: 8px !important;
+}
+
+.diag-result {
+    line-height: 30px;
+}
+
+.fault-type {
+    background-color: #144f78;
+    line-height: 30px;
+    height: 30px;
+    width: auto;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.fault-result {
+    background-color: #fff;
+    width: auto;
+    font-size: 18px;
+}
+
+.tooltip_templates {
+    display: none;
+}
+
+.dialog {
+    background-color: #222 !important;
+    color: #fff !important;
+    border-color: #222 !important;
+}
+
+
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+
+.headroom--pinned {
+    transform: translateY(0%);
+}
+
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+/*滚动条整体样式*/
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 1px;
+}
+
+/*滚动条滑块*/
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #144f78;
+}
+
+/*滚动条轨道*/
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    background: #ccc;
+}
+
+
+
+
+

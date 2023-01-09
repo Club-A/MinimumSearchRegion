@@ -1,0 +1,260 @@
+<?xml version="1.0"
+        encoding="utf-8"?>
+<!-- Create with Visual Graph (http://www.visual-graph.com/) -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     style="background-color:transparent"
+     id="main"
+     viewBox="-20.000000 -300.000000 1000.000000 1000.000000"
+     width="600.000000"
+     height="600.000000">
+    <!--    <defs/>-->
+    <!--    <line id="line3"
+    x1="-97.2179"
+    y1="13.8019"
+    x2="-32.9179"
+    y2="-13.8981"
+    fill="#9900CC"
+    stroke="#000000"-->
+    <!--          transform="translate(31.917897,-94.701870)"/>-->
+    <text x="300"
+          y="380"
+          font-size="40"
+          fill="#FFFFFF">⑧ E/SS-E/SE/S
+    </text>
+    <text id="text6"
+          x="-2.08887"
+          y="10"
+          font-family="Arial"
+          font-size="18"
+          text-anchor="start"
+          transform="translate(-164.911133,153.000000)">
+    </text>
+    <text id="text9"
+          x="-2.08887"
+          y="5"
+          font-family="Arial"
+          font-size="16"
+          text-anchor="start"
+          font-weight="bold"
+          transform="translate(-164.911133,155.000000)">
+    </text>
+    <line id="line4"
+          x1="38.0179"
+          y1="85.4221"
+          x2="40.0179"
+          y2="87.4221"
+          fill="none"
+          stroke="#FF0000"
+          stroke-width="5"
+          stroke-dasharray="18,6"
+          transform="translate(569.482147,103.077860)"/>
+    <g id="element1"
+       transform="translate(677.750000,112.250000)">
+        <g id="element3"
+           transform="translate(-146.750000,4.250000)">
+            <!--右T3S-->
+            <ellipse id="circle5"
+                     cx="59"
+                     cy="0.5"
+                     rx="125"
+                     ry="125"
+                     fill="#F7C0AE"
+                     fill-opacity="0.8"
+                     stroke="#DCDCDC"
+                     stroke-width="2"
+                     stroke-opacity="1"
+                     transform="translate(-59.000000,-0.500000)"/>
+            <text id="text3"
+                  x="-0.088867"
+                  y="19"
+                  font-family="Arial"
+                  font-size="28"
+                  text-anchor="start"
+                  transform="translate(-108.411133,-11.500000)">
+                T3(S)
+            </text>
+        </g>
+        <!--右T3E-->
+        <ellipse id="circle2"
+                 cx="55"
+                 cy="54.5"
+                 rx="125"
+                 ry="125"
+                 fill="#7D54D1"
+                 fill-opacity="0.8"
+                 stroke="#DCDCDC"
+                 stroke-width="2"
+                 stroke-opacity="1"
+                 transform="translate(91.750000,-49.250000)"/>
+        <text id="text1"
+              x="-0.088867"
+              y="19"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(111.338867,-5.250000)">
+            T3(E)
+        </text>
+        <!--右T2S-->
+        <ellipse id="circle5"
+                 cx="26"
+                 cy="-32.5"
+                 rx="92"
+                 ry="92"
+                 fill="#79BD8F"
+                 fill-opacity="0.8"
+                 stroke="#DCDCDC"
+                 stroke-width="2"
+                 stroke-opacity="1"
+                 transform="translate(-133.250000,23.750000)"/>
+        <!--右T1S-->
+        <ellipse id="circle6"
+                 cx="8"
+                 cy="-52.5"
+                 rx="75"
+                 ry="75"
+                 fill="#80FFFF"
+                 fill-opacity="0.8"
+                 fill-rule="evenodd"
+                 stroke="#DCDCDC"
+                 stroke-width="2"
+                 stroke-opacity="1"
+                 transform="translate(-4.250000,-26.250000)"/>
+        <text id="text3"
+              x="-0.088867"
+              y="19"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(-150.661133,-16.250000)">
+            T2(S)
+        </text>
+        <!--右T1E-->
+        <ellipse id="circle7"
+                 cx="8"
+                 cy="-52.5"
+                 rx="75"
+                 ry="75"
+                 fill="#F5A503"
+                 fill-opacity="0.8"
+                 fill-rule="evenodd"
+                 stroke="#DCDCDC"
+                 stroke-width="2"
+                 stroke-opacity="1"
+                 transform="translate(-5.750000,131.250000)"/>
+        <text id="text5"
+              x="-0.088867"
+              y="19"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(-26.661133,73.750000)">
+            T1(E)
+        </text>
+        <text id="text7"
+              x="-0.088867"
+              y="19"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(-21.661133,-87.250000)">
+            T1(S)
+        </text>
+    </g>
+    <g id="element2"
+       transform="translate(182.000000,113.250000)">
+        <!--左T2S-->
+        <ellipse id="circle1"
+                 cx="26"
+                 cy="-32.5"
+                 rx="92"
+                 ry="92"
+                 fill="#79BD8F"
+                 fill-opacity="0.8"
+                 stroke="#DCDCDC"
+                 stroke-width="2"
+                 stroke-opacity="1"
+                 transform="translate(-73.000000,28.250000)"/>
+        <!--左T1S-->
+        <ellipse id="circle4"
+                 cx="8"
+                 cy="-52.5"
+                 rx="75"
+                 ry="75"
+                 fill="#7AD4F5"
+                 fill-opacity="0.8"
+                 fill-rule="evenodd"
+                 stroke="#DCDCDC"
+                 stroke-width="2"
+                 stroke-opacity="1"
+                 transform="translate(56.000000,-23.750000)"/>
+        <text id="text8"
+              x="-0.088867"
+              y="19"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(-88.411133,-15.750000)">
+            T2(S)
+        </text>
+        <!--左T1E-->
+        <ellipse id="circle3"
+                 cx="8"
+                 cy="-52.5"
+                 rx="75"
+                 ry="75"
+                 fill="#F5A503"
+                 fill-opacity="0.8"
+                 fill-rule="evenodd"
+                 stroke="#DCDCDC"
+                 stroke-width="2"
+                 stroke-opacity="1"
+                 transform="translate(51.500000,128.750000)"/>
+        <text id="text2"
+              x="-0.088867"
+              y="19"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(35.588867,74.250000)">
+            T1(E)
+        </text>
+        <text id="text4"
+              x="-0.088867"
+              y="19"
+              font-family="Arial"
+              font-size="28"
+              text-anchor="start"
+              transform="translate(40.588867,-86.750000)">
+            T1(S)
+        </text>
+    </g>
+    <path id="line4-1"
+          d="M91.632546,16.620146 A93.127615,93.127615,0,1,0,36.632546,85.620146 M38.632546,87.620146 A66.382323,66.382323,0,0,1,90.632546,13.620146"
+          fill="none"
+          stroke="#FF0000"
+          stroke-width="6"
+          stroke-dasharray="18,6"
+          transform="translate(571.867454,104.879854)">
+        <animate xlink:href="#line4-1"
+                 attributeName="stroke"
+                 attributeType="XML"
+                 from="#FFFFFF"
+                 to="#FF0000"
+                 begin="0"
+                 dur="2s"
+                 fill="freeze"
+                 repeatCount="indefinite"></animate>
+        <animate xlink:href="#line4-1"
+                 attributeName="stroke-opacity"
+                 attributeType="XML"
+                 from="0"
+                 to="1"
+                 begin="0"
+                 dur="2s"
+                 fill="freeze"
+                 repeatCount="indefinite"></animate>
+    </path>
+</svg>

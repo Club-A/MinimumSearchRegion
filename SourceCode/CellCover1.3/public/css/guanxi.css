@@ -1,0 +1,13 @@
+*{
+    border-radius: 8px;
+    background-color: #212324;
+    color: #FFF;
+    }
+
+#pic{
+    border: #aaaaaa solid 2px ;
+    float: left;
+    margin-left: 120px;
+    margin-top: 25px;
+    height:900px;
+    }

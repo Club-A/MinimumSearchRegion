@@ -1,0 +1,151 @@
+{
+  "categories": [
+    {
+      "name": "LIF⋈¹LIF"
+    },
+    {
+      "name": "LIF⋈¹LRF"
+    },
+    {
+      "name": "LIF⋈¹LOF"
+    },
+    {
+      "name": "LIF⋈¹TOF"
+    },
+    {
+      "name": "LIF⋈¹LNF"
+    },
+    {
+      "name": "LIF⋈¹CORF"
+    },
+    {
+      "name": "LIF⋈¹DORF"
+    },
+    {
+      "name": "LIF⋈¹TNF"
+    },
+    {
+      "name": "LIF⋈¹ENF"
+    }
+  ],
+  "links": [
+    {
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "source": "0",
+      "target": "6"
+    },
+    {
+      "source": "1",
+      "target": "4"
+    },
+
+
+    {
+      "source": "4",
+      "target": "7",
+      "label": {
+        "show": true,
+        "formatter": "E",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "5",
+      "target": "7"
+    },
+    {
+      "source": "6",
+      "target": "8",
+      "lineStyle": {
+        "type": "dashed"
+      },
+      "label": {
+
+        "show": true,
+        "formatter": "X",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "7",
+      "target": "8"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0",
+      "name": "LIF⋈¹LIF",
+      "symbolSize": 100,
+      "x": 100,
+      "y": 0,
+      "category": 0
+    },
+    {
+      "id": "1",
+      "name": "LIF⋈¹LRF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 50,
+      "category": 1
+    },
+    {
+      "id": "2",
+      "name": "LIF⋈¹LOF",
+      "symbolSize": 100,
+      "x": 400,
+      "y": 100,
+      "category": 2
+    },
+    {
+      "id": "3",
+      "name": "LIF⋈¹TOF",
+      "symbolSize": 100,
+      "x": 70,
+      "y": 120,
+      "category": 3
+    },
+    {
+      "id": "4",
+      "name": "LIF⋈¹LNF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 150,
+      "category": 4
+    },
+    {
+      "id": "5",
+      "name": "LIF⋈¹CORF",
+      "symbolSize": 100,
+      "x": 400,
+      "y": 200,
+      "category": 5
+    },
+    {
+      "id": "6",
+      "name": "LIF⋈¹DORF",
+      "symbolSize": 100,
+      "x": 100,
+      "y": 220,
+      "category": 6
+    },
+    {
+      "id": "7",
+      "name": "LIF⋈¹TNF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 240,
+      "category": 7
+    },
+    {
+      "id": "8",
+      "name": "LIF⋈¹ENF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 320,
+      "category": 8
+    }
+  ]
+}

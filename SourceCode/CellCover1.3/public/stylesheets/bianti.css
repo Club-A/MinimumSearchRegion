@@ -1,0 +1,314 @@
+/*清除列表自带小点*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#glyphico-close {
+    margin-left: 0;
+}
+.r-tab {
+    margin-left: 15px;
+}
+.glyphicon {
+    color: #fff;
+}
+
+.navbar {
+    margin-bottom: 0;
+
+}
+
+/*给三个区域添加边框*/
+.left-board,
+.right-board,
+.sidebar {
+    /*border-top: 1px solid #0f0f0f;*/
+    border-right: 1px solid #0f0f0f;
+    border-bottom: none;
+    border-left: none;
+    /*border: #0f0f0f 1px solid;*/
+    margin-top: 0;
+    padding-top: 0;
+    color: #C6C6C6;
+}
+.right-board {
+    /*border-top: 1px solid #0f0f0f;*/
+    /*border-right: 1px solid #0f0f0f;*/
+    border-left: none;
+    padding: 0;
+}
+.left-board {
+    /*border-top: 1px solid #0f0f0f;*/
+    border-left: 1px solid #0f0f0f;
+    border-right: 1px solid #ffffff;
+    padding: 0;
+}
+.sidebar {
+    /*border-bottom: #0f0f0f 1px solid;*/
+    border-right:none;
+    border-right: 0.5px solid #ffffff;
+    padding: 0;
+}
+.sidebarHidden {
+    display: none;
+}
+
+.draw1,
+.right-board .draw2 {
+    width: 100%;
+    height: 100%;
+    padding:0;
+    /*overflow:auto;*/
+}
+/*给折叠按钮加入样式*/
+.hider i {
+    /*vertical-align: middle;*/
+}
+
+/*右侧边栏标题设定样式*/
+.r-tab {
+    color: #C6C6C6;
+    font-size: 18px;
+}
+/*小标题1：表达式输入样式*/
+.sidebar .headline{
+    margin: 6px 0;
+    background-color: #144f78; /*rgba(14, 61, 97, 0.85)*/
+    color: #C6C6C6;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.choice-title {
+    color: #C6C6C6;
+}
+.one,
+.two {
+    color: #C6C6C6;
+}
+.choice {
+    color: #C6C6C6;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+.title {
+    color: #C6C6C6;
+    margin-left: 6px;
+}
+.btn11 {
+    margin-top: 6px;
+    color: #0f0f0f;
+}
+.btn11:hover {
+    background-color: #141414;
+    color: #fff;
+}
+
+.but-submit:hover {
+    background-color: #141414;
+    color: #fff;
+}
+
+.output {
+    /*height: 90px;*/
+    color: #C6C6C6;
+    border: 1px dashed #8c8c8c;
+}
+
+i {
+    cursor: pointer;
+}
+.tools {
+    margin-left: 12px;
+}
+.tools i {
+    padding: 1px;
+    margin-left: 6px;
+    font-size: 25px;
+    color: #C6C6C6;
+    border: #252525 1px solid;
+    text-align: center;
+    /*background-color: rgba(14, 61, 97, 0.85);*/
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.iconfont:hover {
+    background-color: #000;
+    color: #fff;
+}
+.row1 {
+    color: #0f0f0f;
+}
+
+/*生成的变体列表样式*/
+.btn1{
+    /*background-color: #f0f0f0;*/
+    /*background-color: #144f78;*/
+    /*display: inline-block;*/
+    /*margin-left: 35px;*/
+    /*margin-left:10px;*/
+    margin: 0;
+    padding: 1px 1px 2px 1px;
+    border-radius: 0px;
+    border:none;
+    outline:none;
+    font-size: 14px;
+    color:#0f0f0f;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+}
+/*.scrollbar-inner {
+    overflow: auto;
+}*/
+.changeBackground {
+    background-color: #0f0f0f;
+}
+#biantiResultExport {
+    overflow: auto;
+}
+#biantiResultExport a{
+    color:#fff;
+    /*margin-left: 35px;*/
+    text-decoration:none;
+    /*display: inline-block;
+    padding-bottom: 12px;*/
+}
+/*滚动条样式*/
+
+
+
+.btn1hover {
+    background-color: #141414;
+    color: #fff;
+}
+/*生成的有效测试用例样式*/
+#caseResultExport p {
+    /*display: block;*/
+    margin-left: 0px;
+    /*color: #fff;*/
+    color: #c6c6c6;
+}
+
+table thead td {
+    text-align: center;
+}
+table tr td {
+    border:1px solid #fff;
+    text-align: center;
+}
+table tbody tr:nth-child(2n+1){
+    background-color: #5e5e5e;
+}
+table tbody tr {
+    color: #fff;
+}
+
+.right-board ul {
+    display: inline-block;
+    /*float: right;*/
+    /*margin-right: 20px;*/
+}
+.right-board ul li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.left-board ul {
+    display: inline-block;
+    /*float: right;*/
+    /*margin-right: 20px;*/
+}
+.left-board ul li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 3px;
+}
+.left-board ul li:hover{
+    color: #fff;
+}
+.right-board ul li:hover{
+    color: #fff;
+}
+
+.right-board span {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.left-board span {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.baChange {
+    background-color: #0f0f0f;
+}
+
+li{
+    padding: 0 3px;
+}
+
+/*有滚动条的*/
+#right-board,
+#left-board {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+/*#right-board, #canvas-frame-right {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-left: 1px solid #000000;
+}
+#right-left, #canvas-frame-left {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-left: 1px solid #000000;
+}*/
+
+/*#right-board, #canvas-frame-right {
+    overflow-x: auto;
+    overflow-y: auto;
+    border-left: 1px solid #000000;
+}
+#right-left, #canvas-frame-left {
+    overflow-x: auto;
+    overflow-y: auto;
+    border-left: 1px solid #000000;
+}*/
+/*让.right-board里的#right-control-button固定在屏幕上*/
+.fixedBox{
+    z-index:10;
+
+    position:fixed;
+    /*right:50px;
+    top:50px;*/
+}
+
+#controlLeft {
+    margin-right: 15px;
+}
+
+#left-control-button {
+    /*background-color: #144f78;*/
+}
+
+.projList{
+    width:100%;
+    height:300px;
+    cursor: move;
+    overflow-x:auto;
+}
+
+p b{
+    color: #1b1b1b;
+}
+p input{
+    color: #1b1b1b;
+    margin-top: 10px;
+}

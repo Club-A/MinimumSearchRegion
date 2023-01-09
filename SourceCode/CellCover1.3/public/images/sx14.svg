@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Create with Visual Graph (http://www.visual-graph.com/) -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" style="background-color:#FFFFFF" id="main" viewBox="0.000000 0.000000 1100.000000 900.000000" width="600.000000" height="700.000000">
+<script type="text/javascript" xlink:href="vg.js"/>
+<defs/>
+<line id="line3" x1="-97.2179" y1="13.8019" x2="-32.9179" y2="-13.8981" fill="#9900CC" stroke="#000000" transform="translate(31.917897,-94.701870) "/>
+<line id="line8" x1="32.9055" y1="30.1391" x2="31.5055" y2="-31.6609" fill="#999999" stroke="#000000" transform="translate(95.794483,156.560933) "/>
+<g id="element1" transform="translate(192.000000,33.250000) ">
+<ellipse id="circle2" cx="-6" cy="-64.5" rx="60" ry="60" fill="#0000CC" fill-opacity="0.7" stroke="#6666E0" stroke-opacity="1" transform="translate(-47.000000,-3.750000) "/>
+<ellipse id="circle5" cx="25" cy="-35.5" rx="92" ry="92" fill="#FF00FF" fill-opacity="0.7" fill-rule="evenodd" stroke="#FF66FF" stroke-opacity="1" transform="translate(-73.500000,71.750000) "/>
+<text id="text3" x="-1.08887" y="13" font-family="Arial" font-size="22" text-anchor="start" transform="translate(-55.411133,44.250000) ">
+T1(E)</text>
+<ellipse id="circle4" cx="-6" cy="-64.5" rx="60" ry="60" fill="#00FF00" fill-opacity="0.8" stroke="#66FF66" stroke-opacity="1" transform="translate(86.500000,103.750000) "/>
+<text id="text5" x="-1.08887" y="13" font-family="Arial" font-size="22" text-anchor="start" transform="translate(-64.411133,-81.750000) ">
+T2(S)</text>
+<text id="text4" x="-1.08887" y="13" font-family="Arial" font-size="22" text-anchor="start" transform="translate(54.588867,41.250000) ">
+T2(E)</text>
+</g>
+<g id="element2" transform="translate(661.500000,65.500000) ">
+<ellipse id="circle1" cx="3.5" cy="71" rx="125" ry="125" fill="#FFFF00" stroke="#FFFF00" transform="translate(-3.500000,-71.000000) "/>
+<text id="text8" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(36.088867,-7.000000) ">
+T3(E)</text>
+</g>
+<g id="element3" transform="translate(535.000000,30.750000) ">
+<ellipse id="circle2" cx="-6" cy="-64.5" rx="60" ry="60" fill="#0000CC" fill-opacity="0.7" stroke="#6666E0" stroke-opacity="1" transform="translate(-47.000000,-3.750000) "/>
+<ellipse id="circle5" cx="25" cy="-35.5" rx="92" ry="92" fill="#FF00FF" fill-opacity="0.7" fill-rule="evenodd" stroke="#FF66FF" stroke-opacity="1" transform="translate(-73.500000,71.750000) "/>
+<text id="text3" x="-1.08887" y="13" font-family="Arial" font-size="22" text-anchor="start" transform="translate(-55.411133,44.250000) ">
+T1(E)</text>
+<ellipse id="circle4" cx="-6" cy="-64.5" rx="60" ry="60" fill="#00FF00" fill-opacity="0.8" stroke="#66FF66" stroke-opacity="1" transform="translate(86.500000,103.750000) "/>
+<text id="text5" x="-1.08887" y="13" font-family="Arial" font-size="22" text-anchor="start" transform="translate(-64.411133,-81.750000) ">
+T2(S)</text>
+<text id="text4" x="-1.08887" y="13" font-family="Arial" font-size="22" text-anchor="start" transform="translate(54.588867,41.250000) ">
+T2(E)</text>
+</g>
+<path id="line8-1" d="M-104.900605,-76.328370 A65.245648,65.245647,0,0,0,2.099395,-85.328370 M-102.400605,-79.828370 A91.752027,91.752027,0,1,0,21.099395,54.671630 M0.099395,-83.328370 A59.436684,59.436684,0,0,1,33.099395,-46.328370 M33.099395,-44.328370 A60.125581,60.125581,0,1,1,37.099395,37.671630 " fill="none" stroke="#FF0000" stroke-width="5" stroke-dasharray="18,6" transform="translate(534.400605,73.828370) ">
+<animate xlink:href="#line8-1" attributeName="stroke" attributeType="XML" from="#FFFFFF" to="#FF0000" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+								<animate xlink:href="#line8-1" attributeName="stroke-opacity" attributeType="XML" from="0" to="1" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+							</path>
+</svg>

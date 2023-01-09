@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <title>测试用例生成历史记录</title>
+    <style>
+        ::-webkit-scrollbar {/*滚动条*/
+            width:12px;
+            background: #696969;
+        }
+        ::-webkit-scrollbar-thumb { /*滚动条滑块*/
+            background: white;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+        }
+        .leftli{
+            border-bottom: 1px solid white;
+            font-size: 12px;
+        }
+
+        .righta{
+            font-size: 16px;
+            color: white;
+            cursor: pointer;
+        }
+        .righta:hover{
+            color: white;
+        }
+        .nnn{
+            color: white;
+            padding: 0px 0px 0px 15px;
+            font-size: 15px;
+        }
+        .mmm{
+            padding: 15px 0px 0px 15px;
+        }
+
+        .overflowdiv{
+            max-height: 140px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body style="background-color: #3c3c3c;overflow-y: hidden;">
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/" title="单击以回到首页">可视化系统</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="../testCaseGenerate" target="_blank" title="单击以跳转测试用例生成页面">
+                            测试用例生成
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../visualFaultDiagnosis" target="_blank" title="单击以跳转缺陷诊断页面">
+                            缺陷诊断
+                            <span class="sr-only"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../bianti" target="_blank" title="单击以跳转变体生成页面">
+                            变体生成
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../levelpresent" target="_blank" title="单击以跳转层次关系展示页面">
+                            层次关系展示
+                        </a>
+                    </li>
+                    <li >
+                        <a href="../test" target="_blank" title="单击以跳转测试页面">
+                            测试
+                        </a>
+                    </li>
+                    <li class="dropdown active" >
+                        <a href="#" class=" dropdown-toggle" id="dropdownMenu1"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
+                           title="单击选择历史记录页面">
+                            历史记录<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu navbar-nav navbar-inverse" aria-labelledby="dropdownMenu1">
+                            <li><a href="testcasedemo.html" target="_blank" title="单击以跳转测试用例历史记录页面">测试用例历史记录<span class="badge" id="testcase"></span></a></li>
+                            <li><a href="demo.html" target="_blank" title="单击以跳转缺陷诊断历史记录页面">缺陷诊断历史记录<span class="badge"id="quexian"></span></a></li>
+                            <li><a href="demo2.html" target="_blank" title="单击以跳转变体生成历史记录页面">变体生成历史记录<span class="badge" id="bianti"></span></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../help" target="_blank" title="单击以跳转帮助页面">
+                            帮助
+                        </a>
+                    </li>
+
+                </ul>
+               <!-- <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text"  class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li id="userinfoimg"><a onclick="getuserinfo()"  class="glyphicon glyphicon-user" title="个人中心"></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="glyphicon glyphicon-cog dropdown-toggle" id="dropdownMenu2"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" title="设置">
+                        </a>
+                        <ul class="dropdown-menu navbar-nav navbar-inverse" aria-labelledby="dropdownMenu2">
+                            <li><a href="#" title="单击以清除缺陷诊断历史记录">清除缺陷诊断</a></li>
+                            <li><a href="#" title="单击以清除变体生成历史记录">清除变体生成</a></li>
+                            <li><a href="#" title="单击以还原画布">清除画布</a></li>
+                            <li><a href="#" title="单击以清除页面缓存">清除缓存</a></li>
+                            <li><a onclick="secede()" title="退出账户">退出</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   <div style="float: left;overflow-y:scroll;background-color: #333333;margin-top: -20px;width: 20%;height: 710px;">
+        <ul id="today"   class="nav sidebar-nav" style="padding: 10px 10px 0px 10px; line-height: 18px;">
+       <li onclick="today()" class="sidebar-brand" style="cursor: pointer;background: #4682B4;">
+           <span class="glyphicon glyphicon-th-list" style="cursor: pointer; color: white;font-size: 14px;padding: 10px 0px 10px 10px" aria-hidden="true">&nbsp;今天</span> <span onclick="todaydelall()" style="float: right;cursor: pointer; color: white;font-size: 14px;padding: 10px 10px 10px 10px;">全部删除</span>
+       </li>  </ul>
+       <ul id="week"  class="nav sidebar-nav" style="padding: 10px 10px 0px 10px; line-height: 18px;">
+           <li onclick="week()" class="sidebar-brand" style="cursor: pointer;background: #4682B4;">
+               <span class="glyphicon glyphicon-th-list" style="cursor: pointer; color: white;font-size: 14px;padding: 10px 0px 10px 10px" aria-hidden="true">&nbsp;最近一周</span><span onclick="weekdelall()" style="float: right;cursor: pointer; color: white;font-size: 14px;padding: 10px 10px 10px 10px;">全部删除</span>
+           </li>
+       </ul>
+       <ul id="month"  class="nav sidebar-nav" style="padding: 10px 10px 0px 10px; line-height: 18px;">
+           <li onclick="month()" class="sidebar-brand" style="cursor: pointer;background: #4682B4;">
+               <span class="glyphicon glyphicon-th-list" style="cursor: pointer; color: white;font-size: 14px;padding: 10px 0px 10px 10px" aria-hidden="true">&nbsp;最近一个月</span><span onclick="monthdelall()" style="float: right;cursor: pointer; color: white;font-size: 14px;padding: 10px 10px 10px 10px;">全部删除</span>
+           </li>
+
+       </ul>
+       <ul id="before"  class="nav sidebar-nav" style="padding: 10px 10px 0px 10px; line-height: 18px;">
+           <li onclick="before()" class="sidebar-brand" style="cursor: pointer;background: #4682B4;">
+               <span class="glyphicon glyphicon-th-list" style="cursor: pointer; color: white;font-size: 14px;padding: 10px 0px 10px 10px" aria-hidden="true">&nbsp;更早</span><span onclick="beforedelall()" style="float: right;cursor: pointer; color: white;font-size: 14px;padding: 10px 10px 10px 10px;">全部删除</span>
+           </li>
+       </ul>
+   </div>
+<div id="rightdiv" style="width: 80%;height: 710px;float: left;overflow-y: scroll;margin-top: -20px;">
+    <div>    <img src="images/效果图1.jpg" style="padding: 10px 20px 0px 15px; "></div>
+    <div style="margin:-65px auto 0px 360px;">
+       <span style="border: 2px solid #cccccc;display:inline-block;height: 30px;">
+           <span class="glyphicon glyphicon-search" style="border-right:none;line-height:20px;text-align:center;background-color: white;width: 30px;height: 22px;"></span><span><input id="searchProper" style="border:none;width: 300px;height: 22px"/></span><span><input onclick="search()" type="button" value="搜索" style="background-color:#4682B4;border: none;color: white;"/></span>
+       </span>
+    </div>
+    <div style="height: 40px;">
+    </div>
+    <div  style="width: 96%;height: 25px;background-color:#4682B4;margin: 15px 20px 0px 15px; "> &nbsp;&nbsp; &nbsp;&nbsp;<a onclick="todaydata()" class="righta">今天</a>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="weekdata()" class="righta">最近一周</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="monthdata()" class="righta">最近一个月</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="beforedata()" class="righta">更早</a>
+
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    var total
+    //用来保存今天等的rightdiv的html值
+    var todaystr='';
+    var weekstr='';
+    var monthstr='';
+    var beforestr='';
+    //用来保存今天等的id字符串，形如：1，2，3
+    var todayids='';
+    var weekids='';
+    var monthids='';
+    var beforeids='';
+    //进入页面执行的函数
+$(function () {
+    //查看是否登录
+        $.ajax({
+            type: "get",
+            url: "/biantiUsers/getSession",
+            dataType: "json",
+            data: {},
+            success: function (data) {
+                if (data.data==0){
+                    window.location.href="/login";
+                }else{
+                    //查询变体的总数
+                    $.ajax({
+                        type: "get",
+                        url: "/biantiUsers/selectbiantitoal",
+                        dataType: "json",
+                        data: {},
+                        success: function (data) {
+                            $("#bianti").html(data.data);
+                        }
+                    });
+                    //查询缺陷的总数
+                    $.ajax({
+                        type: "get",
+                        url: "/biantiUsers/selectquxiantoal",
+                        dataType: "json",
+                        data: {},
+                        success: function (data) {
+                            $("#quexian").html(data.data);
+                        }
+                    });
+                    //查看测试用例的总数
+                    $.ajax({
+                        type: "get",
+                        url: "/biantiUsers/selecttesttoal",
+                        dataType: "json",
+                        data: {},
+                        success: function (data) {
+                            $("#testcase").html(data.data);
+                        }
+                    });
+
+                    //ajax请求接口挑选今天
+                    $.ajax({
+                        type : "get",
+                        url : "/testcaseHistory/selectrecord",
+                        dataType : "json",   //返回格式
+                        data : {userid:1,time:"now"},  //传递参数
+                        success : function(data){
+                            var str='';
+                            var str2='';
+                            for (i in data.data){ //遍历结果
+                                //把id进行连接，生成ids字符串，方便全部删除功能的传参
+                                todayids=todayids+data.data[i].id+',';
+                                //拼接左侧导航栏html字符串
+                                str=str+'<li class="leftli" onclick="dingwei('+"'"+('f'+data.data[i].id)+"'"+')"><a href="#" style="padding-bottom:2px;color:#57BAFF; "><i class="fa fa-fw fa-home"></i> 表达式：'+data.data[i].biaodashi+'<span style="float: right" onclick="del('+data.data[i].id+')">删除</span></a></li>';
+                                //拼接右下方html字符串
+                                str2=str2+'<div class="overflowdiv" id="hhf'+data.data[i].id+'" onclick="hrefquexian('+data.data[i].id+')" style="width: 215px;height: 150px;background-color:#696969;float: left;border-radius: 6%;margin: 25px 0px 0px 20px; "><p class="nnn mmm">表达式：'+data.data[i].biaodashi+'</p><p class="nnn">测试用例：'+data.data[i].testcase+'</p>'
+                                    +'</div>';
+                            }
+                            //保存rightdiv标签的html，方便进行初始化
+                            todaystr=str2;
+                            $("#today").append(str);
+                            $("#rightdiv").append(str2);
+                            //请求成功以后，ajax再请求接口挑选最近一周
+                            $.ajax({
+                                type : "get",
+                                url : "/testcaseHistory/selectrecord",
+                                dataType : "json",
+                                data : {userid:1,time:"week1"},
+                                success : function(data){
+                                    var str='';
+                                    var str2='';
+                                    for (i in data.data){
+                                        weekids=weekids+data.data[i].id+',';
+                                        str=str+'<li class="leftli" onclick="dingwei('+"'"+('j'+data.data[i].id)+"'"+')"><a href="#" style="padding-bottom:2px;color:#57BAFF; "><i class="fa fa-fw fa-home"></i> 表达式：'+data.data[i].biaodashi+'<span style="float: right" onclick="del('+data.data[i].id+')">删除</span></a></li>';
+                                        str2=str2+'<div class="overflowdiv" id="hhj'+data.data[i].id+'" onclick="hrefquexian('+data.data[i].id+')" style="width: 215px;height: 150px;background-color:#696969;float: left;border-radius: 6%;margin: 25px 0px 0px 20px; "><p class="nnn mmm">表达式：'+data.data[i].biaodashi+'</p><p class="nnn">测试用例：'+data.data[i].testcase+'</p>'
+                                            +'</div>';
+                                    }
+                                    weekstr=str2;
+                                    $("#week").append(str);
+                                    $("#rightdiv").append(str2);
+                                    //ajax请求接口挑选今天挑选最近一个月
+                                    $.ajax({
+                                        type : "get",
+                                        url : "/testcaseHistory/selectrecord",
+                                        dataType : "json",
+                                        data : {userid:1,time:"month"},
+                                        success : function(data){
+                                            var str='';
+                                            var str2='';
+                                            for (i in data.data){
+                                                monthids=monthids+data.data[i].id+',';
+                                                str=str+'<li class="leftli" onclick="dingwei('+"'"+('g'+data.data[i].id)+"'"+')"><a href="#" style="padding-bottom:2px;color:#57BAFF; "><i class="fa fa-fw fa-home"></i> 表达式：'+data.data[i].biaodashi+'<span style="float: right" onclick="del('+data.data[i].id+')">删除</span></a></li>';
+                                                str2=str2+'<div class="overflowdiv" id="hhg'+data.data[i].id+'" onclick="hrefquexian('+data.data[i].id+')" style="width: 215px;height: 150px;background-color:#696969;float: left;border-radius: 6%;margin: 25px 0px 0px 20px; "><p class="nnn mmm">表达式：'+data.data[i].biaodashi+'</p><p class="nnn">测试用例：'+data.data[i].testcase+'</p>'
+                                                    +'</div>';
+
+                                            }
+                                            monthstr=str2;
+                                            $("#month").append(str);
+                                            $("#rightdiv").append(str2);
+                                            //ajax挑选更早
+                                            $.ajax({
+                                                type : "get",
+                                                url : "/testcaseHistory/selectrecord",
+                                                dataType : "json",
+                                                data : {userid:1,time:"before"},
+                                                success : function(data){
+                                                    var str='';
+                                                    var str2='';
+                                                    for (i in data.data){
+                                                        beforeids=beforeids+data.data[i].id+',';
+                                                        str=str+'<li class="leftli" onclick="dingwei('+"'"+('k'+data.data[i].id)+"'"+')"><a href="#" style="padding-bottom:2px;color:#57BAFF; "><i class="fa fa-fw fa-home"></i> 表达式：'+data.data[i].biaodashi+'<span style="float: right" onclick="del('+data.data[i].id+')">删除</span></a></li>';
+                                                        str2=str2+'<div class="overflowdiv" id="hhk'+data.data[i].id+'"  onclick="hrefquexian('+data.data[i].id+')" style="width: 215px;height: 150px;background-color:#696969;float: left;border-radius: 6%;margin: 25px 0px 0px 20px; "><p class="nnn mmm">表达式：'+data.data[i].biaodashi+'</p><p class="nnn">测试用例：'+data.data[i].testcase+'</p>'
+                                                            +'</div>';
+                                                    }
+                                                    beforestr=str2;
+                                                    $("#before").append(str);
+                                                    $("#rightdiv").append(str2);
+
+                                                }
+                                            });
+                                        }
+                                    });
+
+                                }
+                            });
+                        }
+                    });
+                }
+            }
+        });
+
+
+
+})
+
+    function search() {
+        $.ajax({
+            type : "get",
+            url : "/testcaseHistory/search",
+            dataType : "json",
+            data : {searchP:$("#searchProper").val()},
+            success : function(data){
+                if(data.result== true) {
+                    var str='';
+                    var str2='';
+                    for (i in data.data){
+                    str2=str2+'<div class="overflowdiv" id="hhkjj'+data.data[i].id+'" onclick="hrefquexian('+data.data[i].id+')" style="width: 215px;height: 150px;background-color:#696969;float: left;border-radius: 6%;margin: 25px 0px 0px 20px; "><p class="nnn mmm">表达式：'+data.data[i].biaodashi+'</p><p class="nnn">测试用例：'+data.data[i].testcase+'</p>'
+                        +'</div>';
+                    }
+                    $("#rightdiv").html('   <div>    <img src="images/效果图1.jpg" style="padding: 10px 20px 0px 15px; "></div>\n' +
+                    '    <div style="margin:-65px auto 0px 360px;">\n' +
+                    '       <span style="border: 2px solid #cccccc;display:inline-block;height: 30px;">\n' +
+                    '           <span class="glyphicon glyphicon-search" style="border-right:none;line-height:20px;text-align:center;background-color: white;width: 30px;height: 22px;"></span><span><input id="searchProper" style="border:none;width: 300px;height: 22px"/></span><span><input onclick="search()" type="button" value="搜索" style="background-color:#4682B4;border: none;color: white;"/></span>'+
+                    '    </div>   <div style="height: 40px;">\n' +
+                    '    </div><div  style="width: 96%;height: 25px;background-color:#4682B4;margin: 15px 20px 0px 15px; "> &nbsp;&nbsp; &nbsp;&nbsp;<a onclick="todaydata()" class="righta">今天</a>'
+                    +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="weekdata()" class="righta">最近一周</a>'
+                    +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="monthdata()" class="righta">最近一个月</a>'
+                    +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="beforedata()" class="righta">更早</a>'
+                    +'</div>');
+                    $("#rightdiv").append(str2);
+                }else{
+                    alert("历史记录搜索失败");
+                }
+
+            }
+        });
+
+    }
+
+function today() {
+    //判断类leftli的标签是否已经被隐藏，被隐藏就展开，否则就隐藏
+    if ($("#today>.leftli").attr("style") == "display:none") {//已经隐藏
+        $("#today>.leftli").attr("style", "border-bottom: 1px solid white;font-size: 12px;");
+    } else {
+        $("#today>.leftli").attr("style", "display:none");  //未隐藏，设置为隐藏
+    }
+
+}
+function week() {
+    if ($("#week>.leftli").attr("style") == "display:none") {
+        $("#week>.leftli").attr("style", "border-bottom: 1px solid white;font-size: 12px;");
+    } else {
+        $("#week>.leftli").attr("style", "display:none");
+    }
+}
+function month() {
+    if ($("#month>.leftli").attr("style") == "display:none") {
+        $("#month>.leftli").attr("style", "border-bottom: 1px solid white;font-size: 12px;");
+    } else {
+        $("#month>.leftli").attr("style", "display:none");
+    }
+}
+function before() {
+    if ($("#before>.leftli").attr("style") == "display:none") {
+        $("#before>.leftli").attr("style", "border-bottom: 1px solid white;font-size: 12px;");
+    } else {
+        $("#before>.leftli").attr("style", "display:none");
+    }
+}
+//定位函数
+function dingwei(id) {
+    //设置初始化html
+    $("#rightdiv").html('   <div>    <img src="images/效果图1.jpg" style="padding: 10px 20px 0px 15px; "></div>\n' +
+        '    <div style="margin:-65px auto 0px 360px;">\n' +
+        '       <span style="border: 2px solid #cccccc;display:inline-block;height: 30px;">\n' +
+        '           <span class="glyphicon glyphicon-search" style="border-right:none;line-height:20px;text-align:center;background-color: white;width: 30px;height: 22px;"></span><span><input id="searchProper" style="border:none;width: 300px;height: 22px"/></span><span><input onclick="search()" type="button" value="搜索" style="background-color:#4682B4;border: none;color: white;"/></span>'+
+        '    </div>   <div style="height: 40px;">\n' +
+        '    </div><div  style="width: 96%;height: 25px;background-color:#4682B4;margin: 15px 20px 0px 15px; "> &nbsp;&nbsp; &nbsp;&nbsp;<a onclick="todaydata()" class="righta">今天</a>'
+        +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="weekdata()" class="righta">最近一周</a>'
+        +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="monthdata()" class="righta">最近一个月</a>'
+        +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="beforedata()" class="righta">更早</a>'
+        +'</div>');
+    //扩展html
+    $("#rightdiv").append(todaystr+weekstr+monthstr+beforestr);
+    var idstring='#hh'+id;
+    //定位
+    $(idstring).css("background-color","#cccccc");
+    $(idstring)[0].scrollIntoView();
+	
+}
+
+    function  todaydata() {
+        $("#rightdiv").html('   <div>    <img src="images/效果图1.jpg" style="padding: 10px 20px 0px 15px; "></div>\n' +
+            '    <div style="margin:-65px auto 0px 360px;">\n' +
+            '       <span style="border: 2px solid #cccccc;display:inline-block;height: 30px;">\n' +
+            '           <span class="glyphicon glyphicon-search" style="border-right:none;line-height:20px;text-align:center;background-color: white;width: 30px;height: 22px;"></span><span><input id="searchProper" style="border:none;width: 300px;height: 22px"/></span><span><input onclick="search()" type="button" value="搜索" style="background-color:#4682B4;border: none;color: white;"/></span>'+
+            '    </div>   <div style="height: 40px;">\n' +
+            '    </div><div  style="width: 96%;height: 25px;background-color:#4682B4;margin: 15px 20px 0px 15px; "> &nbsp;&nbsp; &nbsp;&nbsp;<a onclick="todaydata()" class="righta">今天</a>'
+            +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="weekdata()" class="righta">最近一周</a>'
+            +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="monthdata()" class="righta">最近一个月</a>'
+            +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="beforedata()" class="righta">更早</a>'
+            +'</div>');
+        $("#rightdiv").append(todaystr);
+    }
+    function  weekdata() {
+        $("#rightdiv").html('   <div>    <img src="images/效果图1.jpg" style="padding: 10px 20px 0px 15px; "></div>\n' +
+            '    <div style="margin:-65px auto 0px 360px;">\n' +
+            '       <span style="border: 2px solid #cccccc;display:inline-block;height: 30px;">\n' +
+            '           <span class="glyphicon glyphicon-search" style="border-right:none;line-height:20px;text-align:center;background-color: white;width: 30px;height: 22px;"></span><span><input id="searchProper" style="border:none;width: 300px;height: 22px"/></span><span><input onclick="search()" type="button" value="搜索" style="background-color:#4682B4;border: none;color: white;"/></span>'+
+            '    </div>  <div style="height: 40px;">\n' +
+            '    </div> <div  style="width: 96%;height: 25px;background-color:#4682B4;margin: 15px 20px 0px 15px; "> &nbsp;&nbsp; &nbsp;&nbsp;<a onclick="todaydata()" class="righta">今天</a>'
+            +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="weekdata()" class="righta">最近一周</a>'
+            +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="monthdata()" class="righta">最近一个月</a>'
+            +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="beforedata()" class="righta">更早</a>'
+            +'</div>');
+        $("#rightdiv").append(weekstr);
+    }
+    function  monthdata() {
+        $("#rightdiv").html('   <div>    <img src="images/效果图1.jpg" style="padding: 10px 20px 0px 15px; "></div>\n' +
+            '    <div style="margin:-65px auto 0px 360px;">\n' +
+            '       <span style="border: 2px solid #cccccc;display:inline-block;height: 30px;">\n' +
+            '           <span class="glyphicon glyphicon-search" style="border-right:none;line-height:20px;text-align:center;background-color: white;width: 30px;height: 22px;"></span><span><input id="searchProper" style="border:none;width: 300px;height: 22px"/></span><span><input onclick="search()" type="button" value="搜索" style="background-color:#4682B4;border: none;color: white;"/></span>'+
+            '    </div>  <div style="height: 40px;">\n' +
+            '    </div> <div  style="width: 96%;height: 25px;background-color:#4682B4;margin: 15px 20px 0px 15px; "> &nbsp;&nbsp; &nbsp;&nbsp;<a onclick="todaydata()" class="righta">今天</a>'
+            +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="weekdata()" class="righta">最近一周</a>'
+            +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="monthdata()" class="righta">最近一个月</a>'
+            +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="beforedata()" class="righta">更早</a>'
+            +'</div>');
+        $("#rightdiv").append(monthstr);
+    }
+    function  beforedata() {
+        $("#rightdiv").html('   <div>    <img src="images/效果图1.jpg" style="padding: 10px 20px 0px 15px; "></div>\n' +
+            '    <div style="margin:-65px auto 0px 360px;">\n' +
+            '       <span style="border: 2px solid #cccccc;display:inline-block;height: 30px;">\n' +
+            '           <span class="glyphicon glyphicon-search" style="border-right:none;line-height:20px;text-align:center;background-color: white;width: 30px;height: 22px;"></span><span><input id="searchProper" style="border:none;width: 300px;height: 22px"/></span><span><input onclick="search()" type="button" value="搜索" style="background-color:#4682B4;border: none;color: white;"/></span>'+
+            '    </div>  <div style="height: 40px;">\n' +
+            '    </div> <div  style="width: 96%;height: 25px;background-color:#4682B4;margin: 15px 20px 0px 15px; "> &nbsp;&nbsp; &nbsp;&nbsp;<a onclick="todaydata()" class="righta">今天</a>'
+            +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="weekdata()" class="righta">最近一周</a>'
+            +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="monthdata()" class="righta">最近一个月</a>'
+            +'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="beforedata()" class="righta">更早</a>'
+            +'</div>');
+        $("#rightdiv").append(beforestr);
+    }
+//单个删除请求
+    function del(id){
+        $.ajax({
+            type : "get",
+            url : "/testcaseHistory/del",
+            dataType : "json",
+            data : {ids:id},
+            success : function(data){
+                if(data.result=='success') {
+                    window.location.reload(); //页面刷新
+                }else{
+                    alert("历史记录删除失败");
+                }
+            }
+        });
+    }
+
+    //删除全部，下同
+    function todaydelall() {
+        $.ajax({
+            type : "get",
+            url : "/testcaseHistory/del",
+            dataType : "json",
+            data : {ids:todayids.substring(0,todayids.length-1)},//截取字符串，去掉最后一个逗号，进行传参
+            success : function(data){
+                if(data.result=='success') {
+                    window.location.reload();
+                }else{
+                    alert("历史记录删除失败");
+                }
+            }
+        });
+    }
+
+    function weekdelall() {
+        $.ajax({
+            type : "get",
+            url : "/testcaseHistory/del",
+            dataType : "json",
+            data : {ids:weekids.substring(0,weekids.length-1)},
+            success : function(data){
+                if(data.result=='success') {
+                    window.location.reload();
+                }else{
+                    alert("历史记录删除失败");
+                }
+            }
+        });
+    }
+    function monthdelall() {
+        $.ajax({
+            type : "get",
+            url : "/testcaseHistory/del",
+            dataType : "json",
+            data : {ids:monthids.substring(0,monthids.length-1)},
+            success : function(data){
+                if(data.result=='success') {
+                    window.location.reload();
+                }else{
+                    alert("历史记录删除失败");
+                }
+            }
+        });
+    }
+
+    function beforedelall() {
+        $.ajax({
+            type : "get",
+            url : "/testcaseHistory/del",
+            dataType : "json",
+            data : {ids:beforeids.substring(0,beforeids.length-1)},
+            success : function(data){
+                if(data.result=='success') {
+                    window.location.reload();
+                }else{
+                    alert("历史记录删除失败");
+                }
+            }
+        });
+    }
+
+    function hrefquexian(id){
+            //跳转visualFaultDiagnosis
+            window.location.href="/testCaseGenerate?id="+id;
+    }
+</script>
+<!--增加代码开始-->
+    <script>
+    $(function(){
+        $.ajax({
+            type : "post",
+            url : "/userInfo/search",
+            dataType : "json",
+            data:{},
+            success : function(data) {
+                if (data.data.image_url==null || data.data.image_url=='') {}else {
+                    $("#userinfoimg").html('<img  onclick="getuserinfo()" style="margin-top:10px;width: 30px;height: 30px;" src="'+data.data.image_url+'"  title="个人中心"/>');
+                }
+            }
+        });
+    })
+    //个人中心
+    function  getuserinfo(){
+        //查看是否登录
+        $.ajax({
+            type: "get",
+            url: "/biantiUsers/getSession",
+            dataType: "json",
+            data: {},
+            success: function (data) {
+                if (data.data==0){
+                    alert("请先登录")
+                }else{
+                    window.location.href="/Personal/src/Personal.html";
+                }
+            }
+        });
+
+    }
+    function  secede(){
+        $.ajax({
+            type: "get",
+            url: "/userinfo/logout",
+            dataType: "json",
+            data: {},
+            success: function (data) {
+                alert("退出成功");
+                window.location.href = "/";
+            }
+        })
+    }
+
+</script>
+<!--增加代码结束-->
+</html>

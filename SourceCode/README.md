@@ -1,39 +1,20 @@
-# MinimumSearchRegion #
-
-## MinimumSearchRegion算法 ##
+# Boolean Expression Testing and Diagnosis BS System #
 
 
-**运行环境**
-
-安装 visual studio 2013
-
-
-**搭建结果收集环境**
-
-运行 build.sh
-
-
-**创建测试用例运行环境**
-
-将根目录中的test2.txt 放在 E:/FaultTable/目录下
-
-
-**运行**
-
-visual studio 2013下启动程序
-
-
-
-## MinimumSearchRegion Algorithm ##
+## Boolean Expression Testing and Diagnosis BS System ##
 
 **Operating environment**
 
-Install visual studio 2013
+Windows10 and above
 
+VisualStudio 2013
 
-**Build a result collection environment**
+JDK11
 
-run build.sh
+Node 12 and above
+
+MySQL8
+
 
 
 **Create test case running environment**
@@ -41,6 +22,18 @@ run build.sh
 Put test2.txt in the root directory under E:/FaultTable/
 
 
-**Run**
+**Build a result collection environment**
 
-Start the program under Visual Studio 2013
+run build.sh
+
+
+
+
+**Run back end code**
+
+Start and run the program under VisualStudio 2013
+
+
+**Run BS system**
+
+Run ./CellCover1.3/StartNow.bat and type http://127.0.0.1:3000/ in your browser to start the system.

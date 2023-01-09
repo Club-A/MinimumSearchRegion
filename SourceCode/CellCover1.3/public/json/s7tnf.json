@@ -1,0 +1,176 @@
+{
+  "categories": [
+    {
+      "name": "TNF⋈¹LIF"
+    },
+    {
+      "name": "TNF⋈¹LRF"
+    },
+    {
+      "name": "TNF⋈¹LOF"
+    },
+    {
+      "name": "TNF⋈¹TOF"
+    },
+    {
+      "name": "TNF⋈¹LNF"
+    },
+    {
+      "name": "TNF⋈¹CORF"
+    },
+    {
+      "name": "TNF⋈¹DORF"
+    },
+    {
+      "name": "TNF⋈¹TNF"
+    },
+    {
+      "name": "TNF⋈¹ENF"
+    }
+  ],
+  "links": [
+    {
+      "source": "0",
+      "target": "1",
+      "lineStyle": {
+        "type": "dashed"
+      },
+      "label": {
+        "show": true,
+        "formatter": "X",
+        "fontSize": 18
+      }
+    },    {
+      "source": "1",
+      "target": "2"
+    },{
+      "source": "1",
+      "target": "4",
+      "lineStyle": {
+        "type": "dashed"
+      },
+      "label": {
+        "show": true,
+        "formatter": "X",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "0",
+      "target": "6"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "label":{
+        "show": true,
+        "formatter": "扩张点",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "2",
+      "target": "5"
+    },
+
+   {
+      "source": "4",
+      "target": "8",
+      "lineStyle": {
+        "type": "dashed"
+      },
+      "label": {
+        "show": true,
+        "formatter": "X",
+        "fontSize": 18
+      }
+    },
+    {
+      "source": "6",
+      "target": "8",
+      "lineStyle": {
+        "type": "dashed"
+      },
+      "label": {
+        "show": true,
+        "formatter": "X",
+        "fontSize": 18
+      }
+
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0",
+      "name": "TNF⋈¹LIF",
+      "symbolSize": 100,
+      "x": 100,
+      "y": 0,
+      "category": 0
+    },
+    {
+      "id": "1",
+      "name": "TNF⋈¹LRF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 50,
+      "category": 1
+    },
+    {
+      "id": "2",
+      "name": "TNF⋈¹LOF",
+      "symbolSize": 100,
+      "x": 400,
+      "y": 100,
+      "category": 2
+    },
+    {
+      "id": "3",
+      "name": "TNF⋈¹TOF",
+      "symbolSize": 100,
+      "x": 70,
+      "y": 120,
+      "category": 3
+    },
+    {
+      "id": "4",
+      "name": "TNF⋈¹LNF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 150,
+      "category": 4
+    },
+    {
+      "id": "5",
+      "name": "TNF⋈¹CORF",
+      "symbolSize": 100,
+      "x": 400,
+      "y": 200,
+      "category": 5
+    },
+    {
+      "id": "6",
+      "name": "TNF⋈¹DORF",
+      "symbolSize": 100,
+      "x": 100,
+      "y": 220,
+      "category": 6
+    },
+    {
+      "id": "7",
+      "name": "TNF⋈¹TNF",
+      "symbolSize": 100,
+      "x": 280,
+      "y": 240,
+      "category": 7
+    },
+    {
+      "id": "8",
+      "name": "TNF⋈¹ENF",
+      "symbolSize": 100,
+      "x": 250,
+      "y": 320,
+      "category": 8
+    }
+  ]
+}

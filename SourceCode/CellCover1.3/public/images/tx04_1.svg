@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Create with Visual Graph (http://www.visual-graph.com/) -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" style="background-color:##2c2c2f" id="main" viewBox="-100.000000 0.000000 1000.000000 1150.000000" width="260.000000" height="380.000000">
+<script type="text/javascript" xlink:href="vg.js"/>
+<defs/>
+<g id="element2" transform="translate(207.461539,66.000000) ">
+<text id="text2" x="-3.26322" y="2.52026" font-family="Arial" font-size="16" text-anchor="start" font-weight="bold" transform="translate(83.532451,58.666955) ">
+</text>
+<ellipse id="circle4" cx="9.53846" cy="-67.1167" rx="92" ry="92" fill="#00FF00" fill-opacity="0.7" fill-rule="nonzero" stroke="#00FF00" stroke-opacity="0.7" transform="translate(-71.500000,65.616749) "/>
+<text id="text11" x="-3.26322" y="2.52026" font-family="Arial" font-size="16" text-anchor="start" font-weight="bold" transform="translate(-65.390626,-6.333045) ">
+</text>
+<text id="text6" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(-106.949595,-45.500000) ">
+T1(S)</text>
+<path id="line2" d="M-93.500000,-89.777329 A91.766690,91.766690,0,1,0,90.000000,-86.277329 " fill="#0066FF" fill-opacity="0.7" stroke="#0066FF" stroke-opacity="0.7" transform="translate(-60.038462,86.777329) "/>
+<text id="text7" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(-103.949595,23.500000) ">
+T1(E)</text>
+<ellipse id="circle3" cx="26" cy="-32.5" rx="92" ry="92" fill="#FFFF00" fill-opacity="0.7" stroke="#FFFF00" stroke-opacity="0.7" transform="translate(35.961538,34.000000) "/>
+<text id="text8" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(67.050405,-9.500000) ">
+T2(S)</text>
+</g>
+<g id="element1" transform="translate(663.788462,66.000000) ">
+<g id="element3" transform="translate(60.211538,0.000000) ">
+<ellipse id="circle2" cx="83" cy="-18.5" rx="150" ry="150" fill="#CC5599" fill-opacity="0.7" fill-rule="nonzero" stroke="#CC5599" stroke-opacity="1" transform="translate(-83.000000,18.500000) "/>
+<text id="text4" x="7.91113" y="23" font-family="Arial" font-size="28" text-anchor="start" transform="translate(53.588867,1.500000) ">
+T3(S)</text>
+</g>
+<g id="element1" transform="translate(-56.250000,0.000000) ">
+<text id="text2" x="-3.26322" y="2.52026" font-family="Arial" font-size="16" text-anchor="start" font-weight="bold" transform="translate(83.532451,58.666955) ">
+</text>
+<ellipse id="circle4" cx="9.53846" cy="-67.1167" rx="92" ry="92" fill="#00FF00" fill-opacity="0.7" fill-rule="nonzero" stroke="#00FF00" stroke-opacity="0.7" transform="translate(-71.500000,65.616749) "/>
+<text id="text11" x="-3.26322" y="2.52026" font-family="Arial" font-size="16" text-anchor="start" font-weight="bold" transform="translate(-65.390626,-6.333045) ">
+</text>
+<text id="text6" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(-106.949595,-45.500000) ">
+T1(S)</text>
+<path id="line2" d="M-93.500000,-89.777329 A91.766690,91.766690,0,1,0,90.000000,-86.277329 " fill="#0066FF" fill-opacity="0.7" stroke="#0066FF" stroke-opacity="0.7" transform="translate(-60.038462,86.777329) "/>
+<text id="text7" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(-103.949595,23.500000) ">
+T1(E)</text>
+<ellipse id="circle3" cx="26" cy="-32.5" rx="92" ry="92" fill="#FFFF00" fill-opacity="0.7" stroke="#FFFF00" stroke-opacity="0.7" transform="translate(35.961538,34.000000) "/>
+<text id="text8" x="-0.088867" y="19" font-family="Arial" font-size="28" text-anchor="start" transform="translate(67.050405,-9.500000) ">
+T2(S)</text>
+</g>
+</g>
+<path id="line2-1" d="M-156.784900,-7.443761 A94.737048,94.737049,0,0,1,5.215100,-67.443761 M3.215100,64.556239 A84.398816,84.398815,0,0,0,31.215100,-3.443761 M3.215100,-71.443761 A94.135316,94.135316,0,1,1,3.215100,74.556239 M-154.784900,-5.443761 A5761.112479,5761.112479,0,0,0,37.215100,-3.443761 " fill="none" stroke="#FF0000" stroke-width="5" stroke-dasharray="18,6" transform="translate(608.284900,67.943761) ">
+					<animate xlink:href="#line2-1" attributeName="stroke" attributeType="XML" from="#FFFFFF" to="#FF0000" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+								<animate xlink:href="#line2-1" attributeName="stroke-opacity" attributeType="XML" from="0" to="1" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+							</path>
+</svg>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Create with Visual Graph (http://www.visual-graph.com/) -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" style="background-color:#FFFFFF" id="main" viewBox="0.000000 0.000000 400.000000 850.000000" width="500.000000" height="440.000000">
+<script type="text/javascript" xlink:href="vg.js"/>
+<defs/>
+<rect id="rect1" x="-33.5" y="-34" width="80" height="80" fill="#3366FF" stroke="#000000" stroke-width="4" transform="translate(92.500000,224.000000) ">
+	<animate xlink:href="#rect1" attributeName="fill" attributeType="XML" from="#fff" to="#3366FF" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+							</rect>
+<rect id="rect2" x="-33.5" y="-34" width="80" height="80" fill="none" stroke="#000000" stroke-width="4" transform="translate(331.500000,64.000000) "/>
+<rect id="rect3" x="-33.5" y="-34" width="80" height="80" fill="#00FF00" stroke="#000000" stroke-width="4" transform="translate(251.500000,224.000000) ">
+	<animate xlink:href="#rect3" attributeName="fill" attributeType="XML" from="#fff" to="#00FF00" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+							</rect>
+<rect id="rect4" x="-33.5" y="-34" width="80" height="80" fill="#3366FF" stroke="#000000" stroke-width="4" transform="translate(171.500000,224.000000) ">
+	<animate xlink:href="#rect4" attributeName="fill" attributeType="XML" from="#fff" to="#3366FF" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+							</rect>
+<rect id="rect5" x="-33.5" y="-34" width="80" height="80" fill="#FF9900" stroke="#000000" stroke-width="4" transform="translate(331.500000,144.000000) "/>
+<rect id="rect6" x="-33.5" y="-34" width="80" height="80" fill="#FF9900" stroke="#000000" stroke-width="4" transform="translate(171.500000,144.000000) "/>
+<rect id="rect7" x="-33.5" y="-34" width="80" height="80" fill="#FF9900" stroke="#000000" stroke-width="4" transform="translate(92.500000,144.000000) "/>
+<rect id="rect8" x="-33.5" y="-34" width="80" height="80" fill="#FFFFFF" stroke="#000000" stroke-width="4" transform="translate(92.500000,64.000000) "/>
+<rect id="rect9" x="-33.5" y="-34" width="80" height="80" fill="#00FF00" stroke="#000000" stroke-width="4" transform="translate(251.500000,64.000000) "/>
+<rect id="rect10" x="-33.5" y="-34" width="80" height="80" fill="none" stroke="#000000" stroke-width="4" transform="translate(171.500000,64.000000) "/>
+<rect id="rect11" x="-33.5" y="-34" width="80" height="80" fill="#FF0000" stroke="#000000" stroke-width="4" transform="translate(251.500000,144.000000) "/>
+<rect id="rect12" x="-33.5" y="-34" width="80" height="80" fill="none" stroke="#000000" stroke-width="4" transform="translate(331.500000,304.000000) "/>
+<rect id="rect13" x="-33.5" y="-34" width="80" height="80" fill="#00FF00" stroke="#000000" stroke-width="4" transform="translate(251.500000,304.000000) ">
+	<animate xlink:href="#rect13" attributeName="fill" attributeType="XML" from="#fff" to="#00FF00" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+							</rect>
+<rect id="rect14" x="-33.5" y="-34" width="80" height="80" fill="none" stroke="#000000" stroke-width="4" transform="translate(171.500000,304.000000) "/>
+<rect id="rect15" x="-33.5" y="-34" width="80" height="80" fill="#3366FF" stroke="#000000" stroke-width="4" transform="translate(331.500000,224.000000) ">
+	<animate xlink:href="#rect15" attributeName="fill" attributeType="XML" from="#fff" to="#3366FF" begin="0"
+								 dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+							</rect>
+<rect id="rect16" x="-33.5" y="-34" width="80" height="80" fill="none" stroke="#000000" stroke-width="4" transform="translate(92.500000,304.000000) "/>
+<text id="text1" x="0.911133" y="26" font-family="Arial" font-size="36" text-anchor="start" transform="translate(-8.911133,57.000000) ">
+10</text>
+<text id="text2" x="0.911133" y="26" font-family="Arial" font-size="36" text-anchor="start" transform="translate(-7.911133,142.000000) ">
+11</text>
+<text id="text3" x="0.911133" y="26" font-family="Arial" font-size="36" text-anchor="start" transform="translate(-7.911133,219.000000) ">
+01</text>
+<text id="text4" x="0.911133" y="26" font-family="Arial" font-size="36" text-anchor="start" transform="translate(-6.911133,303.000000) ">
+00</text>
+<line id="line1" x1="26" y1="-18.5" x2="-26" y2="18.5" fill="none" stroke="#000000" stroke-width="4" transform="translate(17.000000,378.500000) "/>
+<text id="text5" x="-3.08887" y="3" font-family="SimSun" font-size="12" text-anchor="start" transform="translate(34.088867,400.000000) ">
+</text>
+<text id="text6" x="-0.0888672" y="22" font-family="Arial" font-size="32" text-anchor="start" transform="translate(26.088867,393.000000) ">
+ab</text>
+<text id="text7" x="-0.0888672" y="22" font-family="Arial" font-size="32" text-anchor="start" transform="translate(-28.911133,351.000000) ">
+cd</text>
+<text id="text8" x="0.911133" y="26" font-family="Arial" font-size="36" text-anchor="start" transform="translate(79.088867,372.000000) ">
+00</text>
+<text id="text9" x="0.911133" y="26" font-family="Arial" font-size="36" text-anchor="start" transform="translate(160.088867,372.000000) ">
+01</text>
+<text id="text10" x="0.911133" y="26" font-family="Arial" font-size="36" text-anchor="start" transform="translate(237.088867,372.000000) ">
+11</text>
+<text id="text11" x="0.911133" y="26" font-family="Arial" font-size="36" text-anchor="start" transform="translate(322.088867,372.000000) ">
+10</text>
+</svg>
