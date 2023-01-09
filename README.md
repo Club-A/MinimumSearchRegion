@@ -1,4 +1,4 @@
-# MinimumSearchRegion #
+# Boolean Expression Testing and Diagnosis BS System #
 ## Overall Picture Of Input And Output ##
 
 ![image](https://github.com/Club-A/MinimumSearchRegion/blob/main/FlowProcessDiagram.jpg)
@@ -15,20 +15,8 @@
 
 [3.ComparisonOfDiagnosticAbilityBetweenTminAndMSR](https://github.com/Club-A/MinimumSearchRegion/blob/main/Output/ComparisonofDiagnosabilityBetweenTminAndMSR.csv)
 
-## MinimumSearchRegion算法 ##
 
-
-**源码包**
-
-./SourceCode
-
-**测试集** 
-
-./TestSet
-
-
-
-## MinimumSearchRegion Algorithm ##
+## Boolean Expression Testing and Diagnosis BS System ##
 
 **Source code package**
 
