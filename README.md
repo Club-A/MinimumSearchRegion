@@ -8,6 +8,8 @@
 
 [·25-caseBooleanExpressions](https://github.com/Club-A/MinimumSearchRegion/blob/main/TestSet/25-caseBooleanExpressions.txt)
 
+[·88-caseBooleanExpressions](https://github.com/Club-A/MinimumSearchRegion/blob/main/TestSet/88-caseBooleanExpressions.txt)
+
 ## Output ##
 [1.TimeComplexity](https://github.com/Club-A/MinimumSearchRegion/blob/main/Output/TimeComplexity.csv)
 
